@@ -1,6 +1,9 @@
 const reveal = () => {
   // Select all elements with the class "reveal"
   const reveals = document.querySelectorAll(".reveal");
+  const elements = document.querySelectorAll(".S14-Container");
+  const elementimgs = document.querySelectorAll(".img1-S19-set");
+  const x = document.getElementsByTagName("BODY")[0]
 
   // Loop over each element with the "reveal" class
   reveals.forEach(reveal => {
@@ -14,7 +17,7 @@ const reveal = () => {
     const elementVisible = 10;
 
     // Check if the element has scrolled into view within the threshold
-    if (elementTop < windowHeight - elementVisible) {
+    if (elementTop <= windowHeight - elementVisible) {
       // If the element is within the threshold, add the "active" class to it
       reveal.classList.add("active");
     } else {
@@ -22,7 +25,37 @@ const reveal = () => {
       reveal.classList.remove("active");
     }
   })
+  elements.forEach(element1 => {
+    // Get the height of the viewport
+    const windowHeight = window.innerHeight;
+
+    // Get the distance from the top of the document to the top of the current "reveal" element
+    const elementTop = element1.getBoundingClientRect().top;
+
+    // Check if the element has scrolled into view within the threshold
+    if (elementTop <= 220) {
+      // x.style.overflowY = "hidden";
+      // If the element is within the threshold, add the "active" class to it
+      element1.classList.remove("scorllingIN");
+      element1.classList.add("scorllingAC");
+    } else {
+      // If the element is outside the threshold, remove the "active" class
+      element1.classList.remove("scorllingAC");
+      element1.classList.add("scorllingIN");
+    }
+  })
 }
 
+const listenContainer = () =>{
+  const elementimgs = document.querySelectorAll(".img1-S19-set");
+  elementimgs.forEach(elementimg => {
+    const elementTop = elementimg.offsetLeft;
+    console.log(elementTop);
+
+  })
+}
+const mycontainer = document.getElementsByClassName("S14-Container");
+console.log(mycontainer)
 // Add a scroll event listener to the window, so the 'reveal' function is called every time the user scrolls
 window.addEventListener('scroll', reveal);
+mycontainer[0].addEventListener('scroll', listenContainer);

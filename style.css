@@ -10,6 +10,9 @@ body {
     height: unset;
     overflow-x: hidden;
 }
+body::-webkit-scrollbar{
+    display: none;
+  }
 
 .active.fade-bottom {
     animation: fade-bottom 1s ease-in;
@@ -836,17 +839,17 @@ body {
     color: #ffffff;
 }
 
-.Quote-S12-set {
+.Quote-S12-set {    
     position: absolute;
     padding-left: 20%;
-    padding-top: 33%;
+    padding-top: 20%;
 }
 
 .img1-S12 {
     position: relative;
     text-align: right;
     padding-right: 10%;
-    bottom: -260px;
+    bottom: -220px;
 }
 
 .img1-S12-set {
@@ -855,11 +858,12 @@ body {
 
 .im2-S12 {
     position: relative;
+    transform: rotate(4deg);
 }
 
 .img2-S12-set {
     position: relative;
-    top: 209px;
+    top: 100px
 }
 
 
@@ -892,22 +896,36 @@ body {
 
 
 /* ------------------------------------ S14 ------------------------------------  */
-
 .S14-Container {
-    background-image: linear-gradient(90deg, rgba(217, 217, 217, 1) 0%, rgba(191, 191, 192, 1) 100%);
-    font-family: 'Bai Jamjuree', sans-serif;
-    height: 100%;
-    font-size: 85%;
+    background-image: linear-gradient(rgba(217, 217, 217, 1) 0%, rgb(0, 0, 0, 1) 100%);
+    display: absolute;
+    overflow-x: hidden;
+    height:1920px;
+    transform: rotate(-90deg);
 }
+.scorllingIN{
+    overflow-y: hidden;
+}
+.scorllingAC{
+    overflow-y: auto;
+}
+#S14,#S15,#S16,#S17,#S18,#S19{
+    box-sizing: border-box;
+    display: block;
+    height: 1920px;
+    width: auto;
+    transform: rotate(90deg);
+}
+#S14 {
 
-.S14 {
-    position: relative;
+    font-family: 'Bai Jamjuree', sans-serif;;
+    font-size: 85%;
 }
 
 .img1-S14 {
     position: relative;
     padding-left: 200px;
-    top: 85px;
+    top: 600px;
 }
 
 .Quote-S14 {
@@ -915,7 +933,7 @@ body {
     /*  padding-left: 24%; */
     width: 380px;
     padding-left: 800px;
-    top: -450px;
+    top: -50px;
     line-height: 45px;
     /* padding: 20px; */
     text-align: right;
@@ -924,22 +942,17 @@ body {
 
 /* ------------------------------------ S15 ------------------------------------  */
 
-.S15-Container {
-    background-image: linear-gradient(90deg, rgba(191, 191, 192, 1) 0%, rgba(155, 156, 157, 1) 100%);
-    font-family: 'Bai Jamjuree', sans-serif;
-    height: 100%;
-    font-size: 85%;
-}
+#S15 {
 
-.s15 {
-    position: relative;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 85%;
 }
 
 .img1-S15 {
     position: relative;
     text-align: center;
     /* left: 150px; */
-    top: 100px;
+    top: 600px;
 }
 
 .Quote1-S15 {
@@ -949,7 +962,7 @@ body {
     left: 8%;
     width: 230px;
     height: 50px;
-    top: -450px;
+    top: -50px;
     font-size: 20px;
     line-height: 55px;
     padding: 10px;
@@ -962,7 +975,7 @@ body {
     font-size: 11px;
     left: 8%;
     width: 420px;
-    top: -450px;
+    top: -50px;
     line-height: 19px;
     padding: 10px;
     text-align: left;
@@ -971,27 +984,16 @@ body {
 
 /* ------------------------------------ S16 ------------------------------------  */
 
-.S16-Container {
-    background-image: linear-gradient(90deg, rgba(155, 156, 157, 1) 0%, rgba(99, 100, 100, 1) 100%);
+#S16 {
+
     font-family: 'Bai Jamjuree', sans-serif;
-    height: 100%;
     font-size: 85%;
-}
-
-.s16 {
-    position: relative;
-}
-
-.img1-S16 {
-    position: relative;
-    left: 170px;
-    top: 100px;
 }
 
 .img1-S16 {
     position: relative;
     left: 500px;
-    top: 85px;
+    top: 600px;
 }
 
 .Quote1-S16 {
@@ -1001,7 +1003,7 @@ body {
     left: 8%;
     width: 300px;
     height: 55px;
-    top: -450px;
+    top: -50px;
     font-size: 18px;
     line-height: 65px;
     padding: 10px;
@@ -1014,7 +1016,7 @@ body {
     font-size: 11px;
     left: 8%;
     width: 420px;
-    top: -450px;
+    top: -50px;
     line-height: 19px;
     padding: 10px;
     text-align: left;
@@ -1022,22 +1024,16 @@ body {
 
 
 /* ------------------------------------ S17 ------------------------------------  */
+#S17 {
 
-.S17-Container {
-    background-image: linear-gradient(90deg, rgba(99, 100, 100, 1) 0%, rgba(0, 0, 0, 1) 100%);
     font-family: 'Bai Jamjuree', sans-serif;
-    height: 100%;
     font-size: 85%;
-}
-
-.s17 {
-    position: relative;
 }
 
 .img1-S17 {
     position: relative;
     left: 550px;
-    top: 80px;
+    top: 600px;
 }
 
 .Quote1-S17 {
@@ -1047,7 +1043,7 @@ body {
     left: 8%;
     width: 300px;
     height: 55px;
-    top: -450px;
+    top: -50px;
     font-size: 18px;
     line-height: 65px;
     padding: 10px;
@@ -1060,7 +1056,7 @@ body {
     font-size: 11px;
     left: 8%;
     width: 420px;
-    top: -450px;
+    top: -50px;
     line-height: 19px;
     padding: 10px;
     text-align: left;
@@ -1069,21 +1065,16 @@ body {
 
 /* ------------------------------------ S18 ------------------------------------  */
 
-.S18-Container {
-    background-color: rgb(0, 0, 0);
-    font-family: 'Bai Jamjuree', sans-serif;
-    height: 100%;
-    font-size: 85%;
-}
+#S18 {
 
-.s18 {
-    position: relative;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 85%;
 }
 
 .img1-S18 {
     position: relative;
     left: 550px;
-    top: 8px;
+    top: 580px;
 }
 
 .Quote1-S18 {
@@ -1093,7 +1084,7 @@ body {
     left: 8%;
     width: 300px;
     height: 55px;
-    top: -550px;
+    top: -50px;
     font-size: 18px;
     line-height: 65px;
     padding: 10px;
@@ -1106,7 +1097,7 @@ body {
     font-size: 11px;
     left: 8%;
     width: 420px;
-    top: -550px;
+    top: -50px;
     line-height: 19px;
     padding: 10px;
     text-align: left;
@@ -1115,21 +1106,16 @@ body {
 
 /* ------------------------------------ S19 ------------------------------------  */
 
-.S19-Container {
-    background-color: rgb(0, 0, 0);
+#S19 {
+    overflow-y: hidden;
     font-family: 'Bai Jamjuree', sans-serif;
-    height: 100%;
     font-size: 85%;
-}
-
-.s19 {
-    position: relative;
 }
 
 .img1-S19 {
     position: relative;
-    left: 550px;
-    top: 40px;
+    padding-left: 850px;
+    top: 580px;
 }
 
 .Quote1-S19 {
@@ -1139,7 +1125,7 @@ body {
     left: 8%;
     width: 300px;
     height: 55px;
-    top: -480px;
+    top: -80px;
     font-size: 18px;
     line-height: 65px;
     padding: 10px;
@@ -1152,7 +1138,7 @@ body {
     font-size: 11px;
     left: 8%;
     width: 420px;
-    top: -480px;
+    top: -80px;
     line-height: 19px;
     padding: 10px;
     text-align: left;
@@ -1164,7 +1150,7 @@ body {
     font-size: 11px;
     left: 55%;
     width: 420px;
-    top: -200px;
+    top: 250px;
     line-height: 19px;
     padding: 10px;
     text-align: right;
@@ -1179,6 +1165,7 @@ body {
 				hsl(0, 0%, 3%), 
 				hsl(0, 0%, 93%)
 			);
+    overflow-x: hidden;
 }
 .S20{
     /* background: #a60538; */
