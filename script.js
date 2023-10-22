@@ -2,8 +2,17 @@ const reveal = () => {
   // Select all elements with the class "reveal"
   const reveals = document.querySelectorAll(".reveal");
   const elements = document.querySelectorAll(".S14-Container");
-  const elementimgs = document.querySelectorAll(".img1-S19-set");
-  const x = document.getElementsByTagName("BODY")[0]
+
+  
+  const Chatbox1 = document.getElementById("Quote-S11-1");
+  const Chatbox2 = document.getElementById("Quote-S11-2");
+  const Chatbox3 = document.getElementById("Quote-S11-3");
+  const scrollTop1 = Chatbox1.getBoundingClientRect().y;
+  const scrollTop2 = Chatbox2.getBoundingClientRect().y;
+  const scrollTop3 = Chatbox3.getBoundingClientRect().y;
+  Chatbox1.style.opacity = 0 + scrollTop1/350;
+  Chatbox2.style.opacity = 0 + scrollTop2/350;
+  Chatbox3.style.opacity = 0 + scrollTop3/350;
 
   // Loop over each element with the "reveal" class
   reveals.forEach(reveal => {
@@ -25,21 +34,14 @@ const reveal = () => {
       reveal.classList.remove("active");
     }
   })
-  elements.forEach(element1 => {
-    // Get the height of the viewport
-    const windowHeight = window.innerHeight;
 
-    // Get the distance from the top of the document to the top of the current "reveal" element
+  elements.forEach(element1 => {
     const elementTop = element1.getBoundingClientRect().top;
 
-    // Check if the element has scrolled into view within the threshold
     if (elementTop <= 220) {
-      // x.style.overflowY = "hidden";
-      // If the element is within the threshold, add the "active" class to it
       element1.classList.remove("scorllingIN");
       element1.classList.add("scorllingAC");
     } else {
-      // If the element is outside the threshold, remove the "active" class
       element1.classList.remove("scorllingAC");
       element1.classList.add("scorllingIN");
     }
@@ -51,7 +53,6 @@ const listenContainer = () =>{
   elementimgs.forEach(elementimg => {
     const elementTop = elementimg.offsetLeft;
     console.log(elementTop);
-
   })
 }
 
@@ -61,6 +62,12 @@ window.addEventListener("resize", () => {
   console.log(`The viewport's width is ${width} and the height is ${height}.`);
   document.getElementsByTagName('body')[0].style.setProperty('--vh1', `${width}px`);
   document.getElementsByTagName('body')[0].style.setProperty('--vh2', `${width}px`);
-  document.getElementsByTagName('body')[0].style.setProperty('--vw1', `${width}px`);
+  if (width <= 980){
+    document.getElementsByTagName('body')[0].style.setProperty('--vw1', `${width}px`);
+  }
+  else{
+    document.getElementsByTagName('body')[0].style.setProperty('--vw1', 'auto');
+  }
 });
+
 window.addEventListener('scroll', reveal);

@@ -9,7 +9,7 @@
 body {
   --vh1:1920px;
   --vh2:1920px;
-  --vw1:0;
+  --vw1:auto;
   width: 100%;
   height: unset;
   overflow-x: hidden;
@@ -27,6 +27,12 @@ body {
   /* ------------------------------------ S2 ------------------------------------  */
   .S2-Container {
     min-height: 3200px;
+  }
+  .img1-S19{
+    padding-left: 700px !important;
+  }
+  .Quote-S12-set {
+    padding-top: 15% !important;
   }
   #Quote-S2_1,
   #Quote-S2_2,
@@ -235,6 +241,13 @@ body {
   .S2-Container {
     min-height: 3200px;
   }
+  .img1-S12-set {
+    padding-left: 55%;
+  }
+   .IMGSET-S11 {
+    width: 450px !important;
+    height: 500px !important;
+  }
   #Quote-S2_1,
   #Quote-S2_2,
   #Quote-S2_3,
@@ -332,7 +345,10 @@ body {
   .S14-Container{
     width: 980px !important;
   }
-
+  .IMGSET-S11 {
+    width: 350px !important;
+    height: 400px !important;
+  }
   #Quote-S2_1,
   #Quote-S2_2,
   #Quote-S2_3,
@@ -591,6 +607,9 @@ body {
 .active.fadeaway7 {
   animation: fadeaway2 2s ease-in-out forwards;
 }
+.active.fadeawayChat {
+  animation: fadeaway2 5s ease-in-out forwards;
+}
 
 .active.fade-in {
   animation: fade-in 1.5s ease-in;
@@ -603,8 +622,6 @@ body {
 .active.fade-in3 {
   animation: fade-in 2s ease-in-out forwards;
 }
-
-
 @keyframes fade-bottom {
   0% {
     transform: translateY(50px);
@@ -733,7 +750,6 @@ body {
 }
 
 .S1-Container {
-  background-color: black;
   height: 1200px;
 }
 
@@ -752,7 +768,6 @@ body {
 /* ------------------------------------ S2 ------------------------------------  */
 
 .S2-Container {
-  background-color: gray;
   font-family: 'Bai Jamjuree', sans-serif;
   background-attachment: fixed;
   line-height: 50px;
@@ -790,7 +805,6 @@ body {
 /* ------------------------------------ S3 ------------------------------------  */
 
 .S3-Container {
-  background-color: orangered;
   font-family: 'Bai Jamjuree', sans-serif;
 }
 
@@ -1067,7 +1081,6 @@ body {
 /* ------------------------------------ S5 ------------------------------------  */
 
 .S5-Container {
-  background-color: red;
   font-family: 'Bai Jamjuree', sans-serif;
   line-height: 50px;
   height: auto;
@@ -1097,7 +1110,6 @@ body {
 /* ------------------------------------ S6 ------------------------------------  */
 
 .S6-Container {
-  background-color: blue;
   font-family: 'Bai Jamjuree', sans-serif;
   line-height: 50px;
   font-size: 150%;
@@ -1170,7 +1182,6 @@ body {
 /* ------------------------------------ S7 ------------------------------------  */
 
 .S7-Container {
-  background-color: fuchsia;
   font-family: 'Bai Jamjuree', sans-serif;
   /* line-height: 50px; */
   font-size: 85%;
@@ -1480,9 +1491,10 @@ body {
 }
 
 .Quote-S12-set {
+  transform: all .3s;
   position: absolute;
   padding-left: 20%;
-  padding-top: 33%;
+  padding-top: 10%
 }
 
 .img1-S12 {
@@ -1493,6 +1505,8 @@ body {
 }
 
 .img1-S12-set {
+  transform: all .3s ease !important;
+  padding-left: 55%;
   position: relative;
   top:-90px;
 }
@@ -1725,7 +1739,7 @@ body {
   left: 8%;
   width: 300px;
   height: 55px;
-  top: -50px;
+  top: -150px;
   font-size: 18px;
   line-height: 65px;
   padding: 10px;
@@ -1738,7 +1752,7 @@ body {
   font-size: 11px;
   left: 8%;
   width: 420px;
-  top: -50px;
+  top: -150px;
   line-height: 19px;
   padding: 10px;
   text-align: left;
