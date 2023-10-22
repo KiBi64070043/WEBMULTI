@@ -9,6 +9,7 @@
 body {
   --vh1:1920px;
   --vh2:1920px;
+  --vw1:0;
   width: 100%;
   height: unset;
   overflow-x: hidden;
@@ -327,6 +328,9 @@ body {
   /* ------------------------------------ S2 ------------------------------------  */
   .S2-Container {
     min-height: 3200px;
+  }
+  .S14-Container{
+    width: 980px !important;
   }
 
   #Quote-S2_1,
@@ -1536,6 +1540,7 @@ body {
 .S14-Container {
   background-image: linear-gradient(rgba(217, 217, 217, 1) 0%, rgb(0, 0, 0, 1) 100%);
   height: calc(var(--vh1));
+  width: calc(var(--vw1));
   overflow-x: hidden;
   transform: rotate(-90deg);
 }

@@ -61,5 +61,6 @@ window.addEventListener("resize", () => {
   console.log(`The viewport's width is ${width} and the height is ${height}.`);
   document.getElementsByTagName('body')[0].style.setProperty('--vh1', `${width}px`);
   document.getElementsByTagName('body')[0].style.setProperty('--vh2', `${width}px`);
+  document.getElementsByTagName('body')[0].style.setProperty('--vw1', `${width}px`);
 });
 window.addEventListener('scroll', reveal);
