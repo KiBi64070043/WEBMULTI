@@ -37,13 +37,13 @@ const reveal = () => {
     const scrollTopText2S21 = Text2S21[0].getBoundingClientRect().y;
     const Text3S21 = document.getElementsByClassName("text3-S21");
     const scrollTopText3S21 = Text3S21[0].getBoundingClientRect().y;
-    if (scrollTopText1S21 >= 0) {
+    if (scrollTopText1S21 >= 50) {
         Text1S21[0].style.opacity = 1 - scrollTopText1S21 / 800;
     }
-    if (scrollTopText2S21 >= 0) {
+    if (scrollTopText2S21 >= 50) {
         Text2S21[0].style.opacity = 1 - scrollTopText2S21 / 800;
     }
-    if (scrollTopText3S21 >= 0) {
+    if (scrollTopText3S21 >= 50) {
         Text3S21[0].style.opacity = 1 - scrollTopText3S21 / 800;
     }
 
