@@ -25,13 +25,27 @@ const reveal = () => {
   const scrollTop2S1 = Chatbox2S1.getBoundingClientRect().y;
   const scrollTop3S1 = Chatbox3S1.getBoundingClientRect().y;
   const scrollTop4S1 = Chatbox4S1.getBoundingClientRect().y;
-  Chatbox1S1.style.opacity = 1 - scrollTop1S1/2000;
-  Chatbox2S1.style.opacity = 1 - scrollTop2S1/2000;
-  Chatbox3S1.style.opacity = 1 - scrollTop3S1/2000;
-  Chatbox4S1.style.opacity = 1 - scrollTop4S1/2000;
+  Chatbox1S1.style.opacity = 1 - scrollTop1S1/1400;
+  Chatbox2S1.style.opacity = 1 - scrollTop2S1/1400;
+  Chatbox3S1.style.opacity = 1 - scrollTop3S1/1400;
+  Chatbox4S1.style.opacity = 1 - scrollTop4S1/1400;
 
 
-
+  const Text1S21 = document.getElementsByClassName("text1-S21");
+  const scrollTopText1S21 = Text1S21[0].getBoundingClientRect().y;
+  const Text2S21 = document.getElementsByClassName("text2-S21");
+  const scrollTopText2S21 = Text2S21[0].getBoundingClientRect().y;
+  const Text3S21 = document.getElementsByClassName("text3-S21");
+  const scrollTopText3S21 = Text3S21[0].getBoundingClientRect().y;
+  if (scrollTopText1S21 >= 0){
+    Text1S21[0].style.opacity = 1 - scrollTopText1S21/500;
+  }
+  if (scrollTopText2S21 >= 0){
+    Text2S21[0].style.opacity = 1 - scrollTopText2S21/500;
+  }
+  if (scrollTopText3S21 >= 0){
+    Text3S21[0].style.opacity = 1 - scrollTopText3S21/500;
+  }
 
   // Loop over each element with the "reveal" class
   reveals.forEach(reveal => {
@@ -78,7 +92,7 @@ const listenContainer = () =>{
 window.addEventListener("resize", () => {
   const width = window.innerWidth;
   const height = window.innerHeight;
-  console.log(`The viewport's width is ${width} and the height is ${height}.`);
+  // console.log(`The viewport's width is ${width} and the height is ${height}.`);
   document.getElementsByTagName('body')[0].style.setProperty('--vh1', `${width}px`);
   document.getElementsByTagName('body')[0].style.setProperty('--vh2', `${width}px`);
   if (width <= 980){
@@ -90,3 +104,4 @@ window.addEventListener("resize", () => {
 });
 
 window.addEventListener('scroll', reveal);
+

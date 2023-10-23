@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   --vh1:1920px;
   --vh2:1920px;
@@ -112,7 +114,6 @@ body {
   .S14-Container {
     height: 1550px !important;
     width: 1550px !important;
-
   }
   #Quote-S2_1,
   #Quote-S2_2,
@@ -179,7 +180,7 @@ body {
 }
 @media only screen and (max-width: 1200px) {
   .Basic-Att {
-    min-width: 14400px;
+    min-width: 1440px;
   }
 
   /* ------------------------------------ S1 ------------------------------------  */
@@ -190,6 +191,11 @@ body {
   /* ------------------------------------ S2 ------------------------------------  */
   .S2-Container {
     min-height: 3200px;
+  }
+  .S14-Container {
+    height: 1440px !important;
+    width: 1440px !important;
+
   }
   .img1-S14 {
     padding-left: 160px !important;
@@ -2048,7 +2054,37 @@ body {
   font-weight: 150;
 }
 
-
+.img2-S20-set {
+  transform-origin: 0% 70%;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.img4-S20-set {
+  transform-origin: 100% 30%;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.active.moveInLeft{
+  animation: moveINL 1.5s ease-in;
+}
+.active.moveInRight{
+  animation: moveINR 1.5s ease-in;
+}
+@keyframes move {
+  0%   { rotate: 5deg; }
+  50%  { rotate: -5deg; }
+  100% { rotate: 5deg; }
+}
+@keyframes moveINL {
+  0%   { transform: translateX(-2000px);}
+  100% { transform: translateX(0px); }
+}
+@keyframes moveINR {
+  0%   { transform: translateX(3000px);}
+  100% { transform: translateX(0px); }
+}
 /* ------------------------------------ S21 ------------------------------------  */
 
 .S21-Container {
@@ -2058,7 +2094,7 @@ body {
 }
 
 #S21-Container {
-  /* background: #e8e106; */
+ height: auto;
   padding: 10rem 2rem;
   width: 100%;
   box-sizing: border-box;
@@ -2071,6 +2107,7 @@ body {
 }
 
 .text1-S21 {
+  opacity: 0;
   color: #009933;
   padding: 15rem 0;
   text-align: left;
@@ -2079,6 +2116,7 @@ body {
 }
 
 .text2-S21 {
+  opacity: 0;
   color: #009933;
   padding: 15rem 0;
   text-align: right;
@@ -2087,6 +2125,7 @@ body {
 }
 
 .text3-S21 {
+  opacity: 0;
   color: #009933;
   padding: 15rem 0;
   text-align: left;
