@@ -2140,6 +2140,10 @@ body {
 
 /* ----------------------------------------------------------------------------------- */
 
+footer {
+    padding-top: 30rem;
+}
+
 .img1-footer {
     justify-content: center;
     text-align: center;
