@@ -20,7 +20,14 @@ body {
   .Basic-Att {
     min-width: 980px;
   }
-
+  #img-s9 {
+    position: absolute !important;
+    bottom: 33px !important;
+    padding-left: 55% !important;
+    z-index: 1 !important;
+    width: 600px !important;
+    height: 600px !important;
+}
   /* ------------------------------------ S1 ------------------------------------  */
   .S1-Container {
     min-height: 1700px;
@@ -115,6 +122,14 @@ body {
     height: 1550px !important;
     width: 1550px !important;
   }
+  #img-s9 {
+    position: absolute !important;
+    bottom: 33px !important;
+    padding-left: 55% !important;
+    z-index: 1 !important;
+    width: 600px !important;
+    height: 600px !important;
+  }
   #Quote-S2_1,
   #Quote-S2_2,
   #Quote-S2_3,
@@ -178,11 +193,19 @@ body {
 .img5-S20-set {
   padding-left: 12%;
 }
-@media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1200px) {
   .Basic-Att {
     min-width: 1440px;
   }
 
+  #img-s9 {
+    position: absolute !important;
+    bottom: 33px !important;
+    padding-left: 55% !important;
+    z-index: 1 !important;
+    width: 600px !important;
+    height: 600px !important;
+}
   /* ------------------------------------ S1 ------------------------------------  */
   .S1-Container {
     min-height: 1700px;
@@ -1402,10 +1425,12 @@ body {
 }
 
 #img-s9 {
-  position: absolute;
-  bottom: 33px;
-  padding-left: 54%;
-  z-index: 0;
+  position: absolute !important;
+  bottom: 33px !important;
+  padding-left: 55% !important;
+  z-index: 1 !important;
+  width: 600px !important;
+  height: 600px !important;
 }
 
 .Quote1-S9 {
