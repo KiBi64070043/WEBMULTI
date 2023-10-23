@@ -607,8 +607,17 @@ body {
 .active.fadeaway7 {
   animation: fadeaway2 2s ease-in-out forwards;
 }
+
 .active.fadeawayChat {
-  animation: fadeaway2 5s ease-in-out forwards;
+  animation: fadeaway6 5s ease-in forwards;
+}
+
+.active.fadeawayChat2 {
+  animation: fadeaway5 4s ease-in 1s forwards;
+}
+
+.active.fadeawayChat3 {
+  animation: fadeaway6 3s ease-in 2s forwards;
 }
 
 .active.fade-in {
@@ -682,10 +691,6 @@ body {
 
 @keyframes fadeaway1 {
   0% {
-    opacity: 0;
-  }
-
-  0% {
     opacity: 1;
   }
 
@@ -714,12 +719,50 @@ body {
     opacity: 1;
   }
 
+  100% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeaway5 {
   0% {
+    opacity: 0;
+  }
+
+  20% {
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+
+  80% {
+    transform: translateX(-100px);
     opacity: 1;
   }
 
   100% {
     transform: translateX(-100px);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeaway6 {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    transform: translateX(100px);
+    opacity: 1;
+  }
+
+  80% {
+    transform: translateX(100px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100px);
     opacity: 0;
   }
 }
