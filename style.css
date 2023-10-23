@@ -862,7 +862,7 @@ body {
     font-style: italic;
     font-size: 300%;
     line-height: 100px;
-    color: #009933;
+    color: #0f9413;
     top: 35%;
     padding-left: 5%;
 }
@@ -1895,7 +1895,7 @@ body {
 }
 
 .textbox1 {
-    background-color: #009933;
+    background-color: #1e5d20;
     color: #ffffff;
     height: auto;
     padding: 2rem 0;
@@ -1943,7 +1943,7 @@ body {
 }
 
 .textbox2 {
-    background-color: #009933;
+    background-color: #1e5d20;
     color: #ffffff;
     height: auto;
     padding: 2rem 0;
@@ -1967,7 +1967,7 @@ body {
 
 .textbox4 {
     position: relative;
-    background-color: #009933;
+    background-color: #1e5d20;
     color: #ffffff;
     justify-content: center;
     /* width: 180px; */
@@ -2009,7 +2009,7 @@ body {
 }
 
 .textbox5 {
-    background-color: #009933;
+    background-color: #1e5d20;
     color: #ffffff;
     height: auto;
     padding: 1.5rem 0;
@@ -2025,7 +2025,7 @@ body {
 }
 
 #textbox6 {
-    background-color: #009933;
+    background-color: #1e5d20;
     color: #ffffff;
     height: auto;
     padding: 1.5rem 0;
@@ -2112,7 +2112,7 @@ body {
 
 .text1-S21 {
     opacity: 0;
-    color: #009933;
+    color: #0f9413;
     padding: 15rem 0;
     text-align: left;
     font-size: 30px;
@@ -2121,7 +2121,7 @@ body {
 
 .text2-S21 {
     opacity: 0;
-    color: #009933;
+    color: #0f9413;
     padding: 15rem 0;
     text-align: right;
     font-size: 30px;
@@ -2130,7 +2130,7 @@ body {
 
 .text3-S21 {
     opacity: 0;
-    color: #009933;
+    color: #0f9413;
     padding: 15rem 0;
     text-align: left;
     font-size: 30px;
