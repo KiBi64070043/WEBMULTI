@@ -44,7 +44,7 @@ const reveal = () => {
         Text2S21[0].style.opacity = 1 - scrollTopText2S21 / 800;
     }
     if (scrollTopText3S21 >= 100) {
-        Text3S21[0].style.opacity = 1 - scrollTopText3S21 / 800;
+        Text3S21[0].style.opacity = 1 - scrollTopText3S21 / 1200;
     }
 
     // Loop over each element with the "reveal" class
