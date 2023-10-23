@@ -87,16 +87,14 @@ body {
     padding-left: 75% !important;
   }
 
-  /* ------------------------------------ S21 ------------------------------------  */
-  .img1-footer {
-    padding-left: 5% !important;
-  }
-
-  .img5-S20-set {
-    padding-left: 18%;
-  }
+}
+.img1-footer {
+  padding-left: 5% !important;
 }
 
+.img5-S20-set {
+  padding-left: 18%;
+}
 @media only screen and (max-width: 1440px) {
   .Basic-Att {
     min-width: 1550px;
@@ -110,6 +108,11 @@ body {
   /* ------------------------------------ S2 ------------------------------------  */
   .S2-Container {
     min-height: 3200px;
+  }
+  .S14-Container {
+    height: 1550px !important;
+    width: 1550px !important;
+
   }
   #Quote-S2_1,
   #Quote-S2_2,
@@ -159,28 +162,24 @@ body {
   .img2-S8 {
     padding-left: 5%;
   }
-
   #img2-S8-L {
     padding-left: 63% !important;
   }
-
   #img2-S8-R {
     padding-left: 72% !important;
   }
 
-  /* ------------------------------------ S21 ------------------------------------  */
-  .img1-footer {
-    padding-left: 9% !important;
-  }
-
-  .img5-S20-set {
-    padding-left: 12%;
-  }
+}
+.img1-footer {
+  padding-left: 9% !important;
 }
 
+.img5-S20-set {
+  padding-left: 12%;
+}
 @media only screen and (max-width: 1200px) {
   .Basic-Att {
-    min-width: 1400px;
+    min-width: 14400px;
   }
 
   /* ------------------------------------ S1 ------------------------------------  */
@@ -284,8 +283,6 @@ body {
   #img2-S8-R {
     padding-left: 75% !important;
   }
-
-  /* ------------------------------------ S21 ------------------------------------  */
   .img1-footer {
     padding-left: 20% !important;
   }
@@ -293,6 +290,7 @@ body {
   .img5-S20-set {
     padding-left: 16%;
   }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -319,6 +317,8 @@ body {
   .S14-Container {
     transform: rotate(0deg) !important;
     height: auto !important;
+    width: 1300px !important;
+
   }
   #S14,#S15,#S16,#S17,#S18,#S19{
     transform: rotate(0deg) !important;
@@ -401,8 +401,6 @@ body {
   #img2-S8-R {
     padding-left: 76% !important;
   }
-
-  /* ------------------------------------ S21 ------------------------------------  */
   .img1-footer {
     padding-left: 20% !important;
   }
@@ -427,7 +425,7 @@ body {
     min-height: 3200px;
   }
   .S14-Container{
-    width: 980px !important;
+    width: 1300px !important;
   }
   .IMGSET-S11 {
     width: 350px !important;
@@ -489,11 +487,6 @@ body {
     animation: fadeaway4 2s ease-in-out 1.5s forwards !important;
   }
 
-
-  /* ------------------------------------ S5 ------------------------------------  */
-
-  /* ------------------------------------ S6 ------------------------------------  */
-
   /* ------------------------------------ S7 ------------------------------------  */
   .Quote-S7 {
     padding-left: 22% !important;
@@ -507,7 +500,6 @@ body {
   #img2-S8-R {
     padding-left: 80% !important;
   }
-
   #img2-S8-L {
     padding-left: 68% !important;
   }
@@ -516,8 +508,6 @@ body {
     width: 60% !important;
     padding-left: 46% !important;
   }
-
-  /* ------------------------------------ S21 ------------------------------------  */
   .img1-footer {
     padding-left: 26% !important;
   }
@@ -525,6 +515,7 @@ body {
   .img5-S20-set {
     padding-left: 16%;
   }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -542,7 +533,7 @@ body {
     min-height: 3200px;
   }
   .S14-Container {
-    width: 900px !important;
+    width: 1200px !important;
   }
   #Quote-S2_1,
   #Quote-S2_2,
@@ -616,20 +607,17 @@ body {
     font-size: 250% !important;
   }
 
-  #img2-S8-L {
-    padding-left: 67% !important;
-  }
-
   #img2-S8-R {
     padding-left: 79% !important;
+  }
+  #img2-S8-L {
+    padding-left: 67% !important;
   }
 
   #img1-S8-school {
     width: 60% !important;
     padding-left: 46% !important;
   }
-
-  /* ------------------------------------ S21 ------------------------------------  */
   .img1-footer {
     padding-left: 35% !important;
   }
