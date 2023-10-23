@@ -1,2188 +1,2146 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 body {
-  --vh1:1920px;
-  --vh2:1920px;
-  --vw1:auto;
-  width: 100%;
-  height: unset;
-  overflow-x: hidden;
+    --vh1: 1920px;
+    --vh2: 1920px;
+    --vw1: auto;
+    width: 100%;
+    height: unset;
+    overflow-x: hidden;
 }
+
 @media only screen and (max-width: 1600px) {
-  .Basic-Att {
-    min-width: 980px;
-  }
-  #img-s9 {
-    position: absolute !important;
-    bottom: 33px !important;
-    padding-left: 55% !important;
-    z-index: 1 !important;
-    width: 600px !important;
-    height: 600px !important;
+    .Basic-Att {
+        min-width: 980px;
+    }
+    #img-s9 {
+        position: absolute !important;
+        bottom: 33px !important;
+        padding-left: 55% !important;
+        z-index: 1 !important;
+        width: 550px !important;
+        height: 600px !important;
+    }
+    /* ------------------------------------ S1 ------------------------------------  */
+    .S1-Container {
+        min-height: 1700px;
+    }
+    /* ------------------------------------ S2 ------------------------------------  */
+    .S2-Container {
+        min-height: 3200px;
+    }
+    .img1-S19 {
+        padding-left: 700px !important;
+    }
+    .Quote-S12-set {
+        padding-top: 15% !important;
+    }
+    #Quote-S2_1,
+    #Quote-S2_2,
+    #Quote-S2_3,
+    #Quote-S2_4 {
+        font-size: 130% !important;
+        margin-top: 65% !important;
+    }
+    .IMGSET {
+        width: 450px !important;
+        height: 500px !important;
+        padding-left: 70% !important;
+    }
+    /* ------------------------------------ S3 ------------------------------------  */
+    .IMGLEFT {
+        padding-right: 10%;
+    }
+    .IMGRIGHT {
+        padding-right: 8%;
+    }
+    .hand_dad {
+        top: 755px !important;
+        padding-left: 12% !important;
+    }
+    .hand_mom {
+        top: 780px !important;
+        padding-left: 64% !important;
+    }
+    /* ------------------------------------ S4 ------------------------------------  */
+    /* ------------------------------------ S5 ------------------------------------  */
+    /* ------------------------------------ S6 ------------------------------------  */
+    /* ------------------------------------ S7 ------------------------------------  */
+    .Quote-S7 {
+        padding-left: 27% !important;
+    }
+    /* ------------------------------------ S8 ------------------------------------  */
+    .img2-S8 {
+        padding-left: 3%;
+    }
+    #img2-S8-R {
+        padding-left: 72% !important;
+    }
 }
-  /* ------------------------------------ S1 ------------------------------------  */
-  .S1-Container {
-    min-height: 1700px;
-  }
 
-  /* ------------------------------------ S2 ------------------------------------  */
-  .S2-Container {
-    min-height: 3200px;
-  }
-  .img1-S19{
-    padding-left: 700px !important;
-  }
-  .Quote-S12-set {
-    padding-top: 15% !important;
-  }
-  #Quote-S2_1,
-  #Quote-S2_2,
-  #Quote-S2_3,
-  #Quote-S2_4 {
-    font-size: 130% !important;
-    margin-top: 65% !important;
-  }
-
-  .IMGSET {
-    width: 450px !important;
-    height: 500px !important;
-    padding-left: 70% !important;
-  }
-
-  /* ------------------------------------ S3 ------------------------------------  */
-  .IMGLEFT {
-    padding-right: 10%;
-  }
-
-  .IMGRIGHT {
-    padding-right: 8%;
-  }
-
-  .hand_dad {
-    top: 755px !important;
-    padding-left: 12% !important;
-  }
-
-  .hand_mom {
-    top: 780px !important;
-    padding-left: 64% !important;
-  }
-
-  /* ------------------------------------ S4 ------------------------------------  */
-
-  /* ------------------------------------ S5 ------------------------------------  */
-
-  /* ------------------------------------ S6 ------------------------------------  */
-
-  /* ------------------------------------ S7 ------------------------------------  */
-  .Quote-S7 {
-    padding-left: 27% !important;
-  }
-
-  /* ------------------------------------ S8 ------------------------------------  */
-  .img2-S8 {
-    padding-left: 3%;
-  }
-
-  #img2-S8-R {
-    padding-left: 75% !important;
-  }
-
-}
 .img1-footer {
-  padding-left: 5% !important;
+    padding-left: 5% !important;
 }
 
 .img5-S20-set {
-  padding-left: 18%;
+    padding-left: 18%;
 }
+
 @media only screen and (max-width: 1440px) {
-  .Basic-Att {
-    min-width: 1550px;
-  }
-
-  /* ------------------------------------ S1 ------------------------------------  */
-  .S1-Container {
-    min-height: 1700px;
-  }
-
-  /* ------------------------------------ S2 ------------------------------------  */
-  .S2-Container {
-    min-height: 3200px;
-  }
-  .S14-Container {
-    height: 1550px !important;
-    width: 1550px !important;
-  }
-  #img-s9 {
-    position: absolute !important;
-    bottom: 33px !important;
-    padding-left: 55% !important;
-    z-index: 1 !important;
-    width: 600px !important;
-    height: 600px !important;
-  }
-  #Quote-S2_1,
-  #Quote-S2_2,
-  #Quote-S2_3,
-  #Quote-S2_4 {
-    font-size: 130% !important;
-    margin-top: 65% !important;
-  }
-
-  .IMGSET {
-    width: 450px !important;
-    height: 500px !important;
-    padding-left: 70% !important;
-  }
-
-  /* ------------------------------------ S3 ------------------------------------  */
-  .IMGLEFT {
-    padding-right: 10%;
-  }
-
-  .IMGRIGHT {
-    padding-right: 8%;
-  }
-
-  .hand_dad {
-    top: 755px !important;
-    padding-left: 12% !important;
-  }
-
-  .hand_mom {
-    top: 780px !important;
-    padding-left: 64% !important;
-  }
-
-  /* ------------------------------------ S4 ------------------------------------  */
-
-  /* ------------------------------------ S5 ------------------------------------  */
-
-  /* ------------------------------------ S6 ------------------------------------  */
-
-  /* ------------------------------------ S7 ------------------------------------  */
-  .Quote-S7 {
-    padding-left: 27% !important;
-  }
-
-  /* ------------------------------------ S8 ------------------------------------  */
-  .img2-S8 {
-    padding-left: 5%;
-  }
-  #img2-S8-L {
-    padding-left: 63% !important;
-  }
-  #img2-S8-R {
-    padding-left: 72% !important;
-  }
-
+    .Basic-Att {
+        min-width: 1550px;
+    }
+    /* ------------------------------------ S1 ------------------------------------  */
+    .S1-Container {
+        min-height: 1700px;
+    }
+    /* ------------------------------------ S2 ------------------------------------  */
+    .S2-Container {
+        min-height: 3200px;
+    }
+    .S14-Container {
+        height: 1550px !important;
+        width: 1550px !important;
+    }
+    #img-s9 {
+        position: absolute !important;
+        bottom: 33px !important;
+        padding-left: 55% !important;
+        z-index: 1 !important;
+        width: 550px !important;
+        height: 600px !important;
+    }
+    #Quote-S2_1,
+    #Quote-S2_2,
+    #Quote-S2_3,
+    #Quote-S2_4 {
+        font-size: 130% !important;
+        margin-top: 65% !important;
+    }
+    .IMGSET {
+        width: 450px !important;
+        height: 500px !important;
+        padding-left: 70% !important;
+    }
+    /* ------------------------------------ S3 ------------------------------------  */
+    .IMGLEFT {
+        padding-right: 10%;
+    }
+    .IMGRIGHT {
+        padding-right: 8%;
+    }
+    .hand_dad {
+        top: 755px !important;
+        padding-left: 12% !important;
+    }
+    .hand_mom {
+        top: 780px !important;
+        padding-left: 64% !important;
+    }
+    /* ------------------------------------ S4 ------------------------------------  */
+    /* ------------------------------------ S5 ------------------------------------  */
+    /* ------------------------------------ S6 ------------------------------------  */
+    /* ------------------------------------ S7 ------------------------------------  */
+    .Quote-S7 {
+        padding-left: 27% !important;
+    }
+    /* ------------------------------------ S8 ------------------------------------  */
+    .img2-S8 {
+        padding-left: 5%;
+    }
+    #img2-S8-L {
+        padding-left: 63% !important;
+    }
+    #img2-S8-R {
+        padding-left: 70% !important;
+    }
 }
+
 .img1-footer {
-  padding-left: 9% !important;
+    padding-left: 9% !important;
 }
 
 .img5-S20-set {
-  padding-left: 12%;
+    padding-left: 12%;
 }
-  @media only screen and (max-width: 1200px) {
-  .Basic-Att {
-    min-width: 1440px;
-  }
 
-  #img-s9 {
-    position: absolute !important;
-    bottom: 33px !important;
-    padding-left: 55% !important;
-    z-index: 1 !important;
-    width: 600px !important;
-    height: 600px !important;
-}
-  /* ------------------------------------ S1 ------------------------------------  */
-  .S1-Container {
-    min-height: 1700px;
-  }
-
-  /* ------------------------------------ S2 ------------------------------------  */
-  .S2-Container {
-    min-height: 3200px;
-  }
-  .S14-Container {
-    height: 1440px !important;
-    width: 1440px !important;
-
-  }
-  .img1-S14 {
-    padding-left: 160px !important;
-    top: 425px !important;
-  }
-  .img1-S15 {
-    top: 425px !important;
-  }
-  .img1-S16 {
-    top: 425px !important;
-  }
-  .img1-S17 {
-    top: 425px !important;
-  } 
-  .img1-S18 {
-    left: 480px !important;
-    top: 425px !important;
-  }
-  .img1-S19 {
-    padding-left: 530px !important;
-    top: 425px !important;
-  } 
-  .Quote-S14 {
-    padding-left: 650px !important;
-    top: -230px !important;
-  }
-  .Quote1-S15,.Quote2-S15,.Quote1-S16,.Quote2-S16,.Quote1-S17,.Quote2-S17,.Quote1-S19,.Quote2-S19{
-    font-size: 16.5px !important;
-    top: -230px !important;
-  }
-  .Quote1-S18,.Quote2-S18{
-    font-size: 16.5px !important;
-    top: -330px !important;
-  }
-  .Quote3-S19 {
-    font-size: 16.5px !important;
-    top: 170px !important;
-  }
-  #S14,#S15,#S16,#S17,#S18,#S19{
-    font-size: 93% !important;
-  }
-  #Quote-S2_1,
-  #Quote-S2_2,
-  #Quote-S2_3,
-  #Quote-S2_4 {
-    font-size: 130% !important;
-    margin-top: 65% !important;
-  }
-
-  .IMGSET {
-    width: 450px !important;
-    height: 500px !important;
-    padding-left: 70% !important;
-  }
-
-  /* ------------------------------------ S3 ------------------------------------  */
-  .IMGLEFT {
-    padding-right: 15%;
-  }
-
-  .IMGRIGHT {
-    padding-right: 10%;
-  }
-
-  .hand_dad {
-    top: 755px !important;
-    padding-left: 10% !important;
-  }
-
-  .hand_mom {
-    top: 780px !important;
-    padding-left: 62% !important;
-  }
-
-  /* ------------------------------------ S4 ------------------------------------  */
-
-  /* ------------------------------------ S5 ------------------------------------  */
-
-  /* ------------------------------------ S6 ------------------------------------  */
-
-  /* ------------------------------------ S7 ------------------------------------  */
-  .Quote-S7 {
-    padding-left: 23% !important;
-  }
-
-  /* ------------------------------------ S8 ------------------------------------  */
-  .img2-S8 {
-    padding-left: 5%;
-  }
-
-  #img2-S8-R {
-    padding-left: 75% !important;
-  }
-  .img1-footer {
-    padding-left: 20% !important;
-  }
-
-  .img5-S20-set {
-    padding-left: 16%;
-  }
-
+@media only screen and (max-width: 1200px) {
+    .Basic-Att {
+        min-width: 1440px;
+    }
+    #img-s9 {
+        position: absolute !important;
+        bottom: 33px !important;
+        padding-left: 55% !important;
+        z-index: 1 !important;
+        width: 550px !important;
+        height: 600px !important;
+    }
+    /* ------------------------------------ S1 ------------------------------------  */
+    .S1-Container {
+        min-height: 1700px;
+    }
+    /* ------------------------------------ S2 ------------------------------------  */
+    .S2-Container {
+        min-height: 3200px;
+    }
+    .S14-Container {
+        height: 1440px !important;
+        width: 1440px !important;
+    }
+    .img1-S14 {
+        padding-left: 160px !important;
+        top: 425px !important;
+    }
+    .img1-S15 {
+        top: 425px !important;
+    }
+    .img1-S16 {
+        top: 425px !important;
+    }
+    .img1-S17 {
+        top: 425px !important;
+    }
+    .img1-S18 {
+        left: 480px !important;
+        top: 425px !important;
+    }
+    .img1-S19 {
+        padding-left: 530px !important;
+        top: 425px !important;
+    }
+    .Quote-S14 {
+        padding-left: 650px !important;
+        top: -230px !important;
+    }
+    .Quote1-S15,
+    .Quote2-S15,
+    .Quote1-S16,
+    .Quote2-S16,
+    .Quote1-S17,
+    .Quote2-S17,
+    .Quote1-S19,
+    .Quote2-S19 {
+        font-size: 16.5px !important;
+        top: -230px !important;
+    }
+    .Quote1-S18,
+    .Quote2-S18 {
+        font-size: 16.5px !important;
+        top: -330px !important;
+    }
+    .Quote3-S19 {
+        font-size: 16.5px !important;
+        top: 170px !important;
+    }
+    #S14,
+    #S15,
+    #S16,
+    #S17,
+    #S18,
+    #S19 {
+        font-size: 93% !important;
+    }
+    #Quote-S2_1,
+    #Quote-S2_2,
+    #Quote-S2_3,
+    #Quote-S2_4 {
+        font-size: 130% !important;
+        margin-top: 65% !important;
+    }
+    .IMGSET {
+        width: 450px !important;
+        height: 500px !important;
+        padding-left: 70% !important;
+    }
+    /* ------------------------------------ S3 ------------------------------------  */
+    .IMGLEFT {
+        padding-right: 15%;
+    }
+    .IMGRIGHT {
+        padding-right: 10%;
+    }
+    .hand_dad {
+        top: 755px !important;
+        padding-left: 10% !important;
+    }
+    .hand_mom {
+        top: 780px !important;
+        padding-left: 62% !important;
+    }
+    /* ------------------------------------ S4 ------------------------------------  */
+    /* ------------------------------------ S5 ------------------------------------  */
+    /* ------------------------------------ S6 ------------------------------------  */
+    /* ------------------------------------ S7 ------------------------------------  */
+    .Quote-S7 {
+        padding-left: 23% !important;
+    }
+    /* ------------------------------------ S8 ------------------------------------  */
+    .img2-S8 {
+        padding-left: 5%;
+    }
+    #img2-S8-R {
+        padding-left: 71% !important;
+    }
+    .img1-footer {
+        padding-left: 20% !important;
+    }
+    .img5-S20-set {
+        padding-left: 16%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
-  .Basic-Att {
-    min-width: 1300px;
-  }
-  #img-s9 {
-    position: absolute !important;
-    bottom: 33px !important;
-    padding-left: 55% !important;
-    z-index: 1 !important;
-    width: 600px !important;
-    height: 600px !important;
-  }
-  /* ------------------------------------ S1 ------------------------------------  */
-  .S1-Container {
-    min-height: 1700px;
-  }
-
-  /* ------------------------------------ S2 ------------------------------------  */
-  .S2-Container {
-    min-height: 3200px;
-  }
-  .img1-S12-set {
-    padding-left: 55%;
-  }
-  .IMGSET-S11 {
-    width: 450px !important;
-    height: 500px !important;
-  }
-  .S14-Container {
-    transform: rotate(0deg) !important;
-    height: auto !important;
-    width: 1300px !important;
-
-  }
-  #S14,#S15,#S16,#S17,#S18,#S19{
-    transform: rotate(0deg) !important;
-  }
-  #Quote-S2_1,
-  #Quote-S2_2,
-  #Quote-S2_3,
-  #Quote-S2_4 {
-    font-size: 130% !important;
-    margin-top: 63% !important;
-  }
-
-  .IMGSET {
-    width: 450px !important;
-    height: 500px !important;
-    padding-left: 66% !important;
-  }
-
-  /* ------------------------------------ S3 ------------------------------------  */
-  .IMGLEFT {
-    padding-right: 10%;
-  }
-
-  .IMGRIGHT {
-    padding-right: 12%;
-  }
-
-  .hand_dad {
-    top: 760px !important;
-    padding-left: 14% !important;
-  }
-
-  .hand_mom {
-    top: 780px !important;
-    padding-left: 58% !important;
-  }
-
-  /* ------------------------------------ S4 ------------------------------------  */
-
-  #img1-left,
-  #img1-right {
-    display: none;
-  }
-
-  .active.fadeaway2 {
-    animation: fadeaway1 2s ease-in-out forwards !important;
-  }
-
-  .active.fadeaway3 {
-    animation: fadeaway1 2s ease-in-out 1.5s forwards !important;
-  }
-
-  .active.fadeaway5 {
-    animation: fadeaway4 2s ease-in-out forwards !important;
-  }
-
-  .active.fadeaway6 {
-    animation: fadeaway4 2s ease-in-out 1.5s forwards !important;
-  }
-
-
-  /* ------------------------------------ S5 ------------------------------------  */
-
-  /* ------------------------------------ S6 ------------------------------------  */
-
-  /* ------------------------------------ S7 ------------------------------------  */
-  .Quote-S7 {
-    padding-left: 22% !important;
-  }
-
-  /* ------------------------------------ S8 ------------------------------------  */
-  #img1-S8-school {
-    padding-left: 49% !important;
-  }
-
-  #img2-S8-L {
-    padding-left: 66% !important;
-  }
-
-  #img2-S8-R {
-    padding-left: 76% !important;
-  }
-  .img1-footer {
-    padding-left: 20% !important;
-  }
-
-  .img5-S20-set {
-    padding-left: 16%;
-  }
+    .Basic-Att {
+        min-width: 1300px;
+    }
+    #img-s9 {
+        position: absolute !important;
+        bottom: 33px !important;
+        padding-left: 55% !important;
+        z-index: 1 !important;
+        width: 550px !important;
+        height: 600px !important;
+    }
+    /* ------------------------------------ S1 ------------------------------------  */
+    .S1-Container {
+        min-height: 1700px;
+    }
+    /* ------------------------------------ S2 ------------------------------------  */
+    .S2-Container {
+        min-height: 3200px;
+    }
+    .img1-S12-set {
+        padding-left: 55%;
+    }
+    .IMGSET-S11 {
+        width: 450px !important;
+        height: 500px !important;
+    }
+    .S14-Container {
+        transform: rotate(0deg) !important;
+        height: auto !important;
+        width: 1300px !important;
+    }
+    #S14,
+    #S15,
+    #S16,
+    #S17,
+    #S18,
+    #S19 {
+        transform: rotate(0deg) !important;
+    }
+    #Quote-S2_1,
+    #Quote-S2_2,
+    #Quote-S2_3,
+    #Quote-S2_4 {
+        font-size: 130% !important;
+        margin-top: 63% !important;
+    }
+    .IMGSET {
+        width: 450px !important;
+        height: 500px !important;
+        padding-left: 66% !important;
+    }
+    /* ------------------------------------ S3 ------------------------------------  */
+    .IMGLEFT {
+        padding-right: 10%;
+    }
+    .IMGRIGHT {
+        padding-right: 12%;
+    }
+    .hand_dad {
+        top: 760px !important;
+        padding-left: 14% !important;
+    }
+    .hand_mom {
+        top: 780px !important;
+        padding-left: 58% !important;
+    }
+    /* ------------------------------------ S4 ------------------------------------  */
+    #img1-left,
+    #img1-right {
+        display: none;
+    }
+    .active.fadeaway2 {
+        animation: fadeaway1 2s ease-in-out forwards !important;
+    }
+    .active.fadeaway3 {
+        animation: fadeaway1 2s ease-in-out 1.5s forwards !important;
+    }
+    .active.fadeaway5 {
+        animation: fadeaway4 2s ease-in-out forwards !important;
+    }
+    .active.fadeaway6 {
+        animation: fadeaway4 2s ease-in-out 1.5s forwards !important;
+    }
+    /* ------------------------------------ S5 ------------------------------------  */
+    /* ------------------------------------ S6 ------------------------------------  */
+    /* ------------------------------------ S7 ------------------------------------  */
+    .Quote-S7 {
+        padding-left: 22% !important;
+    }
+    /* ------------------------------------ S8 ------------------------------------  */
+    #img1-S8-school {
+        padding-left: 49% !important;
+    }
+    #img2-S8-L {
+        padding-left: 66% !important;
+    }
+    #img2-S8-R {
+        padding-left: 75% !important;
+    }
+    .img1-footer {
+        padding-left: 20% !important;
+    }
+    .img5-S20-set {
+        padding-left: 16%;
+    }
+    .box-free {
+        padding: 0 530px !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-  .Basic-Att {
-    min-width: 1300px;
-  }
-  #img-s9 {
-    position: absolute !important;
-    bottom: 33px !important;
-    padding-left: 55% !important;
-    z-index: 1 !important;
-    width: 600px !important;
-    height: 600px !important;
-  }
-  /* ------------------------------------ S1 ------------------------------------  */
-  .S1-Container {
-    min-height: 1700px;
-  }
-
-  /* ------------------------------------ S2 ------------------------------------  */
-  .S2-Container {
-    min-height: 3200px;
-  }
-  .S14-Container{
-    width: 1300px !important;
-  }
-  .IMGSET-S11 {
-    width: 350px !important;
-    height: 400px !important;
-  }
-  #Quote-S2_1,
-  #Quote-S2_2,
-  #Quote-S2_3,
-  #Quote-S2_4 {
-    font-size: 130% !important;
-    margin-top: 63% !important;
-  }
-
-  .IMGSET {
-    width: 450px !important;
-    height: 500px !important;
-    padding-left: 65% !important;
-  }
-
-  /* ------------------------------------ S3 ------------------------------------  */
-  .IMGLEFT {
-    padding-right: 10%;
-  }
-
-  .IMGRIGHT {
-    padding-right: 13%;
-  }
-
-  .hand_dad {
-    top: 760px !important;
-    padding-left: 14% !important;
-  }
-
-  .hand_mom {
-    top: 780px !important;
-    padding-left: 58% !important;
-  }
-
-  /* ------------------------------------ S4 ------------------------------------  */
-
-  #img1-left,
-  #img1-right {
-    display: none;
-  }
-
-  .active.fadeaway2 {
-    animation: fadeaway1 2s ease-in-out forwards !important;
-  }
-
-  .active.fadeaway3 {
-    animation: fadeaway1 2s ease-in-out 1.5s forwards !important;
-  }
-
-  .active.fadeaway5 {
-    animation: fadeaway4 2s ease-in-out forwards !important;
-  }
-
-  .active.fadeaway6 {
-    animation: fadeaway4 2s ease-in-out 1.5s forwards !important;
-  }
-
-  /* ------------------------------------ S7 ------------------------------------  */
-  .Quote-S7 {
-    padding-left: 22% !important;
-  }
-
-  /* ------------------------------------ S8 ------------------------------------  */
-  .S8-Container {
-    font-size: 250% !important;
-  }
-
-  #img2-S8-R {
-    padding-left: 80% !important;
-  }
-  #img2-S8-L {
-    padding-left: 68% !important;
-  }
-
-  #img1-S8-school {
-    width: 60% !important;
-    padding-left: 46% !important;
-  }
-  .img1-footer {
-    padding-left: 26% !important;
-  }
-
-  .img5-S20-set {
-    padding-left: 16%;
-  }
-
+    .Basic-Att {
+        min-width: 1300px;
+    }
+    #img-s9 {
+        position: absolute !important;
+        bottom: 33px !important;
+        padding-left: 55% !important;
+        z-index: 1 !important;
+        width: 550px !important;
+        height: 600px !important;
+    }
+    /* ------------------------------------ S1 ------------------------------------  */
+    .S1-Container {
+        min-height: 1700px;
+    }
+    /* ------------------------------------ S2 ------------------------------------  */
+    .S2-Container {
+        min-height: 3200px;
+    }
+    .S14-Container {
+        width: 1300px !important;
+    }
+    .IMGSET-S11 {
+        width: 350px !important;
+        height: 400px !important;
+    }
+    #Quote-S2_1,
+    #Quote-S2_2,
+    #Quote-S2_3,
+    #Quote-S2_4 {
+        font-size: 130% !important;
+        margin-top: 63% !important;
+    }
+    .IMGSET {
+        width: 450px !important;
+        height: 500px !important;
+        padding-left: 65% !important;
+    }
+    /* ------------------------------------ S3 ------------------------------------  */
+    .IMGLEFT {
+        padding-right: 10%;
+    }
+    .IMGRIGHT {
+        padding-right: 13%;
+    }
+    .hand_dad {
+        top: 760px !important;
+        padding-left: 14% !important;
+    }
+    .hand_mom {
+        top: 780px !important;
+        padding-left: 58% !important;
+    }
+    /* ------------------------------------ S4 ------------------------------------  */
+    #img1-left,
+    #img1-right {
+        display: none;
+    }
+    .active.fadeaway2 {
+        animation: fadeaway1 2s ease-in-out forwards !important;
+    }
+    .active.fadeaway3 {
+        animation: fadeaway1 2s ease-in-out 1.5s forwards !important;
+    }
+    .active.fadeaway5 {
+        animation: fadeaway4 2s ease-in-out forwards !important;
+    }
+    .active.fadeaway6 {
+        animation: fadeaway4 2s ease-in-out 1.5s forwards !important;
+    }
+    /* ------------------------------------ S7 ------------------------------------  */
+    .Quote-S7 {
+        padding-left: 22% !important;
+    }
+    /* ------------------------------------ S8 ------------------------------------  */
+    .S8-Container {
+        font-size: 250% !important;
+    }
+    #img2-S8-R {
+        padding-left: 77% !important;
+    }
+    #img2-S8-L {
+        padding-left: 68% !important;
+    }
+    #img1-S8-school {
+        width: 60% !important;
+        padding-left: 46% !important;
+    }
+    .img1-footer {
+        padding-left: 26% !important;
+    }
+    .img5-S20-set {
+        padding-left: 16%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-  .Basic-Att {
-    min-width: 1200px;
-  }
-  #img-s9 {
-    position: absolute !important;
-    bottom: 33px !important;
-    padding-left: 55% !important;
-    z-index: 1 !important;
-    width: 600px !important;
-    height: 600px !important;
-  }
-  /* ------------------------------------ S1 ------------------------------------  */
-  .S1-Container {
-    min-height: 1700px;
-  }
-
-  /* ------------------------------------ S2 ------------------------------------  */
-  .S2-Container {
-    min-height: 3200px;
-  }
-  .S14-Container {
-    width: 1200px !important;
-  }
-  #Quote-S2_1,
-  #Quote-S2_2,
-  #Quote-S2_3,
-  #Quote-S2_4 {
-    font-size: 120% !important;
-    margin-top: 63% !important;
-  }
-
-  .IMGSET {
-    width: 450px !important;
-    height: 500px !important;
-    padding-left: 60% !important;
-  }
-
-  /* ------------------------------------ S3 ------------------------------------  */
-  .IMGLEFT {
-    padding-right: 10%;
-  }
-
-  .IMGRIGHT {
-    padding-right: 17%;
-  }
-
-  .hand_dad {
-    top: 760px !important;
-    padding-left: 15% !important;
-  }
-
-  .hand_mom {
-    top: 780px !important;
-    padding-left: 55% !important;
-  }
-
-  /* ------------------------------------ S4 ------------------------------------  */
-
-  #img1-left,
-  #img1-right {
-    display: none;
-  }
-
-  .active.fadeaway2 {
-    animation: fadeaway1 2s ease-in-out forwards !important;
-  }
-
-  .active.fadeaway3 {
-    animation: fadeaway1 2s ease-in-out 1.5s forwards !important;
-  }
-
-  .active.fadeaway5 {
-    animation: fadeaway4 2s ease-in-out forwards !important;
-  }
-
-  .active.fadeaway6 {
-    animation: fadeaway4 2s ease-in-out 1.5s forwards !important;
-  }
-
-
-  /* ------------------------------------ S5 ------------------------------------  */
-
-  /* ------------------------------------ S6 ------------------------------------  */
-
-  /* ------------------------------------ S7 ------------------------------------  */
-  .Quote-S7 {
-    padding-left: 19% !important;
-  }
-
-  /* ------------------------------------ S8 ------------------------------------  */
-
-  .S8-Container {
-    font-size: 250% !important;
-  }
-
-  #img2-S8-R {
-    padding-left: 79% !important;
-  }
-  #img2-S8-L {
-    padding-left: 67% !important;
-  }
-
-  #img1-S8-school {
-    width: 60% !important;
-    padding-left: 46% !important;
-  }
-  .img1-footer {
-    padding-left: 35% !important;
-  }
-
-  .img5-S20-set {
-    padding-left: 10%;
-  }
+    .Basic-Att {
+        min-width: 1200px;
+    }
+    #img-s9 {
+        position: absolute !important;
+        bottom: 33px !important;
+        padding-left: 55% !important;
+        z-index: 1 !important;
+        width: 550px !important;
+        height: 600px !important;
+    }
+    /* ------------------------------------ S1 ------------------------------------  */
+    .S1-Container {
+        min-height: 1700px;
+    }
+    /* ------------------------------------ S2 ------------------------------------  */
+    .S2-Container {
+        min-height: 3200px;
+    }
+    .S14-Container {
+        width: 1200px !important;
+    }
+    #Quote-S2_1,
+    #Quote-S2_2,
+    #Quote-S2_3,
+    #Quote-S2_4 {
+        font-size: 120% !important;
+        margin-top: 63% !important;
+    }
+    .IMGSET {
+        width: 450px !important;
+        height: 500px !important;
+        padding-left: 60% !important;
+    }
+    /* ------------------------------------ S3 ------------------------------------  */
+    .IMGLEFT {
+        padding-right: 10%;
+    }
+    .IMGRIGHT {
+        padding-right: 17%;
+    }
+    .hand_dad {
+        top: 760px !important;
+        padding-left: 15% !important;
+    }
+    .hand_mom {
+        top: 780px !important;
+        padding-left: 55% !important;
+    }
+    /* ------------------------------------ S4 ------------------------------------  */
+    #img1-left,
+    #img1-right {
+        display: none;
+    }
+    .active.fadeaway2 {
+        animation: fadeaway1 2s ease-in-out forwards !important;
+    }
+    .active.fadeaway3 {
+        animation: fadeaway1 2s ease-in-out 1.5s forwards !important;
+    }
+    .active.fadeaway5 {
+        animation: fadeaway4 2s ease-in-out forwards !important;
+    }
+    .active.fadeaway6 {
+        animation: fadeaway4 2s ease-in-out 1.5s forwards !important;
+    }
+    /* ------------------------------------ S5 ------------------------------------  */
+    /* ------------------------------------ S6 ------------------------------------  */
+    /* ------------------------------------ S7 ------------------------------------  */
+    .Quote-S7 {
+        padding-left: 19% !important;
+    }
+    /* ------------------------------------ S8 ------------------------------------  */
+    .S8-Container {
+        font-size: 250% !important;
+    }
+    #img2-S8-R {
+        padding-left: 79% !important;
+    }
+    #img2-S8-L {
+        padding-left: 67% !important;
+    }
+    #img1-S8-school {
+        width: 60% !important;
+        padding-left: 46% !important;
+    }
+    .img1-footer {
+        padding-left: 35% !important;
+    }
+    .img5-S20-set {
+        padding-left: 10%;
+    }
 }
 
 .active.fade-bottom {
-  animation: fade-bottom 1s ease-in;
+    animation: fade-bottom 1s ease-in;
 }
 
 .active.fade-top1 {
-  animation: fade-top 1s ease-in;
+    animation: fade-top 1s ease-in;
 }
 
 .active.fade-top2 {
-  animation: fade-top 1.1s ease-in;
+    animation: fade-top 1.1s ease-in;
 }
 
 .active.fade-top3 {
-  animation: fade-top 1.2s ease-in;
+    animation: fade-top 1.2s ease-in;
 }
 
 .active.fade-top4 {
-  animation: fade-top 1.3s ease-in;
+    animation: fade-top 1.3s ease-in;
 }
 
 .active.fade-top5 {
-  animation: fade-top 1.4s ease-in;
+    animation: fade-top 1.4s ease-in;
 }
 
 .active.fade-top6 {
-  animation: fade-top 1.5s ease-in;
+    animation: fade-top 1.5s ease-in;
 }
 
 .active.fade-left {
-  animation: fade-left 1s ease-in;
+    animation: fade-left 1s ease-in;
 }
 
 .active.fade-left2 {
-  animation: fade-left 1s ease-in-out forwards;
+    animation: fade-left 1s ease-in-out forwards;
 }
 
 .active.fade-left3 {
-  animation: fade-left 1s ease-in-out 2s forwards;
+    animation: fade-left 1s ease-in-out 2s forwards;
 }
 
 .active.fade-right {
-  animation: fade-right 0.4s ease-in;
+    animation: fade-right 0.4s ease-in;
 }
 
 .active.fade-right2 {
-  animation: fade-right 1.4s ease-in;
+    animation: fade-right 1.4s ease-in;
 }
 
 .active.fade-right3 {
-  animation: fade-right 1s ease-in-out 1s forwards;
+    animation: fade-right 1s ease-in-out 1s forwards;
 }
 
 .active.fadeaway1 {
-  animation: fadeaway1 2s ease-in-out forwards;
+    animation: fadeaway1 2s ease-in-out forwards;
 }
 
 .active.fadeaway2 {
-  animation: fadeaway1 2s ease-in-out 1.5s forwards;
+    animation: fadeaway1 2s ease-in-out 1.5s forwards;
 }
 
 .active.fadeaway3 {
-  animation: fadeaway1 2s ease-in-out 3s forwards;
+    animation: fadeaway1 2s ease-in-out 3s forwards;
 }
 
 .active.fadeaway4 {
-  animation: fadeaway4 2s ease-in-out forwards;
+    animation: fadeaway4 2s ease-in-out forwards;
 }
 
 .active.fadeaway5 {
-  animation: fadeaway4 2s ease-in-out 1.5s forwards;
+    animation: fadeaway4 2s ease-in-out 1.5s forwards;
 }
 
 .active.fadeaway6 {
-  animation: fadeaway4 2s ease-in-out 3s forwards;
+    animation: fadeaway4 2s ease-in-out 3s forwards;
 }
 
 .active.fadeaway7 {
-  animation: fadeaway2 2s ease-in-out forwards;
+    animation: fadeaway2 2s ease-in-out forwards;
 }
 
 .active.fadeawayChat {
-  animation: fadeaway6 5s ease-in forwards;
+    animation: fadeaway6 5s ease-in forwards;
 }
 
 .active.fadeawayChat2 {
-  animation: fadeaway5 4s ease-in 1s forwards;
+    animation: fadeaway5 4s ease-in 1s forwards;
 }
 
 .active.fadeawayChat3 {
-  animation: fadeaway6 3s ease-in 2s forwards;
+    animation: fadeaway6 3s ease-in 2s forwards;
 }
 
 .active.fade-in {
-  animation: fade-in 1.5s ease-in;
+    animation: fade-in 1.5s ease-in;
 }
 
 .active.fade-in2 {
-  animation: fade-in 2s ease-in;
+    animation: fade-in 2s ease-in;
 }
 
 .active.fade-in3 {
-  animation: fade-in 2s ease-in-out forwards;
+    animation: fade-in 2s ease-in-out forwards;
 }
-@keyframes fade-bottom {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
 
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 @keyframes fade-top {
-  0% {
-    transform: translateY(-500px);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 0;
-  }
+    0% {
+        transform: translateY(-500px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
 }
 
 @keyframes fade-left {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 @keyframes fade-right {
-  0% {
-    transform: translateX(100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeaway1 {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateX(100px);
-    opacity: 0;
-  }
+    0% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
 }
 
 @keyframes fadeaway2 {
-  0% {
-    opacity: 0;
-  }
-
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes fadeaway4 {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
+    0% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
 }
 
 @keyframes fadeaway5 {
-  0% {
-    opacity: 0;
-  }
-
-  20% {
-    transform: translateX(-100px);
-    opacity: 1;
-  }
-
-  80% {
-    transform: translateX(-100px);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
+    20% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    80% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
 }
 
 @keyframes fadeaway6 {
-  0% {
-    opacity: 0;
-  }
-
-  20% {
-    transform: translateX(100px);
-    opacity: 1;
-  }
-
-  80% {
-    transform: translateX(100px);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateX(100px);
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
+    20% {
+        transform: translateX(100px);
+        opacity: 1;
+    }
+    80% {
+        transform: translateX(100px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
 }
+
 .Basic-Att {
-  width: 100%;
-  container-type: inline-size;
+    width: 100%;
+    container-type: inline-size;
 }
 
 #FreeSpace {
-  width: 100%;
-  height: 10vh;
+    width: 100%;
+    height: 10vh;
 }
 
 #FreeSpace2 {
-  width: 100%;
-  height: 15vh;
+    width: 100%;
+    height: 15vh;
 }
 
 #FreeSpace3 {
-  width: 100%;
-  height: 20vh;
+    width: 100%;
+    height: 20vh;
 }
 
 .Main-Container {
-  height: auto;
-  width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 .S1-Container {
-  height: 1200px;
+    height: 1200px;
 }
 
 .Head-Content {
-  position: relative;
-  font-family: 'Sriracha', cursive;
-  font-style: italic;
-  font-size: 300%;
-  line-height: 100px;
-  color: #009933;
-  top: 35%;
-  padding-left: 5%;
+    position: relative;
+    font-family: 'Sriracha', cursive;
+    font-style: italic;
+    font-size: 300%;
+    line-height: 100px;
+    color: #009933;
+    top: 35%;
+    padding-left: 5%;
 }
 
 
 /* ------------------------------------ S2 ------------------------------------  */
 
 .S2-Container {
-  font-family: 'Bai Jamjuree', sans-serif;
-  background-attachment: fixed;
-  line-height: 50px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-attachment: fixed;
+    line-height: 50px;
 }
 
 #IMG-S2 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  align-content: center;
-  align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-content: center;
+    align-items: center;
 }
 
 .IMGSET {
-  transition: all 0.3s ease;
-  margin-top: 15%;
-  padding-left: 68%;
-  width: 550px;
-  height: 600px;
+    transition: all 0.3s ease;
+    margin-top: 15%;
+    padding-left: 68%;
+    width: 550px;
+    height: 600px;
 }
 
 #Quote-S2_1,
 #Quote-S2_2,
 #Quote-S2_3,
 #Quote-S2_4 {
-  line-height: 50px;
-  position: relative;
-  font-size: 150%;
-  margin-top: 40%;
-  padding-left: 10%;
-  opacity: 0;
+    line-height: 50px;
+    position: relative;
+    font-size: 150%;
+    margin-top: 40%;
+    padding-left: 10%;
+    opacity: 0;
 }
 
 
 /* ------------------------------------ S3 ------------------------------------  */
 
 .S3-Container {
-  font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .setindex_1 {
-  z-index: 1;
+    z-index: 1;
 }
 
 .setindex_2 {
-  z-index: 2;
+    z-index: 2;
 }
 
 .book1 {
-  position: absolute;
-  top: -16px;
+    position: absolute;
+    top: -16px;
 }
 
 .book2,
 .book3,
 .book4 {
-  position: absolute;
+    position: absolute;
 }
 
 .book1Alt {
-  position: absolute;
-  top: 16px
+    position: absolute;
+    top: 16px
 }
 
 .book3Alt {
-  position: absolute;
-  top: -120px
+    position: absolute;
+    top: -120px
 }
 
 .book4Alt {
-  position: absolute;
-  top: -150px;
+    position: absolute;
+    top: -150px;
 }
 
 .IMGLEFT {
-  position: relative;
+    position: relative;
 }
 
 .IMGRight {
-  position: relative;
+    position: relative;
 }
 
 #book_1 {
-  position: relative;
-  transition: all 0.3s ease;
-  top: -60vh;
-  left: -3%;
+    position: relative;
+    transition: all 0.3s ease;
+    top: -60vh;
+    left: -3%;
 }
 
 #book_2 {
-  position: relative;
-  transition: all 0.3s ease;
-  top: -65vh;
-  padding-left: 5%;
+    position: relative;
+    transition: all 0.3s ease;
+    top: -65vh;
+    padding-left: 5%;
 }
 
 #book_3 {
-  position: relative;
-  transition: all 0.3s ease;
-  top: -50vh;
-  padding-left: 10%;
+    position: relative;
+    transition: all 0.3s ease;
+    top: -50vh;
+    padding-left: 10%;
 }
 
 #book_4 {
-  position: relative;
-  transition: all 0.3s ease;
-  top: -57vh;
-  padding-left: 15%;
+    position: relative;
+    transition: all 0.3s ease;
+    top: -57vh;
+    padding-left: 15%;
 }
 
 #book_5 {
-  position: relative;
-  transition: all 0.3s ease;
-  top: -60vh;
-  padding-left: 82%;
+    position: relative;
+    transition: all 0.3s ease;
+    top: -60vh;
+    padding-left: 82%;
 }
 
 #book_6 {
-  position: relative;
-  transition: all 0.3s ease;
-  top: -65vh;
-  padding-left: 75%;
+    position: relative;
+    transition: all 0.3s ease;
+    top: -65vh;
+    padding-left: 75%;
 }
 
 #book_7 {
-  position: relative;
-  transition: all 0.3s ease;
-  top: -50vh;
-  padding-left: 70%;
+    position: relative;
+    transition: all 0.3s ease;
+    top: -50vh;
+    padding-left: 70%;
 }
 
 #book_8 {
-  position: relative;
-  transition: all 0.3s ease;
-  top: -57vh;
-  padding-left: 65%;
+    position: relative;
+    transition: all 0.3s ease;
+    top: -57vh;
+    padding-left: 65%;
 }
 
 .hand_dad {
-  position: absolute;
-  transition: all 0.3s ease;
-  top: 800px;
-  padding-left: 18%;
-  z-index: -1;
+    position: absolute;
+    transition: all 0.3s ease;
+    top: 800px;
+    padding-left: 18%;
+    z-index: -1;
 }
 
 .hand_mom {
-  position: absolute;
-  transition: all 0.3s ease;
-  top: 800px;
-  padding-left: 62%;
-  z-index: -1;
+    position: absolute;
+    transition: all 0.3s ease;
+    top: 800px;
+    padding-left: 62%;
+    z-index: -1;
 }
+
 .Quote-S3 {
-  text-align: center;
-  line-height: 70px;
-  position: relative;
-  font-size: 150%;
-  margin-bottom: 5%;
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+    font-size: 150%;
+    margin-bottom: 5%;
 }
 
 
 /* ------------------------------------ S4 ------------------------------------  */
 
 .S4-Container {
-  /* background-color: yellow; */
-  font-family: 'Bai Jamjuree', sans-serif;
-  line-height: 50px;
-  height: 1550px;
-  display: inline-block;
-  /*  height: 100%; */
+    /* background-color: yellow; */
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 50px;
+    height: 1550px;
+    display: inline-block;
+    /*  height: 100%; */
 }
 
 .Quote-S4 {
-  position: relative;
-  text-align: center;
-  font-size: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 100%;
 }
 
 .Quote2-S4 {
-  position: relative;
-  text-align: center;
-  font-size: 100%;
-  top: 200px;
+    position: relative;
+    text-align: center;
+    font-size: 100%;
+    top: 200px;
 }
 
 #IMG-S4 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 300px;
-  text-align: center;
-  align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 300px;
+    text-align: center;
+    align-items: center;
 }
 
 .img_S4 {
-  align-items: center;
-  align-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.S4-page2 {
-}
+.S4-page2 {}
 
 .dad-group {
-  position: relative;
+    position: relative;
 }
 
 .mom-group {
-  position: relative;
+    position: relative;
 }
 
 #img1-left {
-  position: absolute;
-  top: 150px;
-  left: 400px;
-  text-align: center;
-  align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    text-align: center;
+    align-items: center;
 }
 
 #img2-left {
-  position: absolute;
-  top: 150px;
-  left: 200px;
-  opacity: 0;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    opacity: 0;
 }
 
 #img3-left {
-  position: absolute;
-  top: 150px;
-  left: -100px;
-  opacity: 0;
+    position: absolute;
+    top: 150px;
+    left: -100px;
+    opacity: 0;
 }
 
 #img1-right {
-  position: absolute;
-  top: 150px;
-  right: 450px;
+    position: absolute;
+    top: 150px;
+    right: 450px;
 }
 
 #img2-right {
-  position: absolute;
-  top: 150px;
-  right: 200px;
-  opacity: 0;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    opacity: 0;
 }
 
 #img3-right {
-  position: absolute;
-  top: 150px;
-  right: 0px;
-  opacity: 0;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    opacity: 0;
 }
 
 
 /* ------------------------------------ S5 ------------------------------------  */
 
 .S5-Container {
-  font-family: 'Bai Jamjuree', sans-serif;
-  line-height: 50px;
-  height: auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 50px;
+    height: auto;
 }
 
 .Quote-S5 {
-  text-align: center;
-  position: relative;
-  font-size: 100%;
+    text-align: center;
+    position: relative;
+    font-size: 100%;
 }
 
 .img-S5 {
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
 
 #imgL-S5 {
-  position: relative;
-  padding-left: 2%;
+    position: absolute;
+    /* position: relative;
+    padding-left: 2%; */
 }
 
 #imgR-S5 {
-  position: relative;
-  padding-right: 2.5%;
+    /* position: relative;
+  padding-right: 2.5%; */
+    position: relative;
+    padding-left: 17%;
 }
 
 
 /* ------------------------------------ S6 ------------------------------------  */
 
 .S6-Container {
-  font-family: 'Bai Jamjuree', sans-serif;
-  line-height: 50px;
-  font-size: 150%;
-  height: 2600px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 50px;
+    font-size: 150%;
+    height: 2600px;
 }
 
 .ChatBox1 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 10%;
-  left: -10%;
-  text-align: left;
-  opacity: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10%;
+    left: -10%;
+    text-align: left;
+    opacity: 0;
 }
 
 .ChatBox2 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 40%;
-  text-align: right;
-  opacity: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40%;
+    text-align: right;
+    opacity: 0;
 }
 
 .ChatBox3 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 70%;
-  left: -10%;
-  text-align: left;
-  opacity: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70%;
+    left: -10%;
+    text-align: left;
+    opacity: 0;
 }
 
 .IMGBoxR {
-  position: absolute;
-  right: 0;
-  z-index: 1;
+    position: absolute;
+    right: 0;
+    z-index: 1;
 }
 
 .IMGBoxL1 {
-  position: absolute;
-  padding-left: 5%;
-  z-index: 1;
+    position: absolute;
+    padding-left: 5%;
+    z-index: 1;
 }
 
 .IMGBoxL2 {
-  position: absolute;
-  padding-left: 5%;
-  z-index: 1;
+    position: absolute;
+    padding-left: 5%;
+    z-index: 1;
 }
 
 #txt1 {
-  position: absolute;
-  padding-left: 12%;
-  margin-top: 4vh;
+    position: absolute;
+    padding-left: 12%;
+    margin-top: 4vh;
 }
 
 #txt2 {
-  position: absolute;
-  padding-left: 80%;
-  margin-top: 3.5vh;
+    position: absolute;
+    padding-left: 80%;
+    margin-top: 3.5vh;
 }
 
 #txt3 {
-  position: absolute;
-  padding-left: 15%;
-  margin-top: 4vh;
+    position: absolute;
+    padding-left: 15%;
+    margin-top: 4vh;
 }
 
 
 /* ------------------------------------ S7 ------------------------------------  */
 
 .S7-Container {
-  font-family: 'Bai Jamjuree', sans-serif;
-  /* line-height: 50px; */
-  font-size: 85%;
-  height: 1500px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    /* line-height: 50px; */
+    font-size: 85%;
+    height: 1500px;
 }
 
 .S7-TV {
-  position: relative;
+    position: relative;
 }
 
 .img1-S7 {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
 
 .Quote-S7 {
-  position: relative;
-  padding-left: 30%;
-  width: 380px;
-  top: -420px;
-  line-height: 26px;
+    position: relative;
+    padding-left: 30%;
+    width: 380px;
+    top: -420px;
+    line-height: 26px;
 }
 
 .img2-S7 {
-  position: relative;
-  top: -750px;
-  padding-left: 46.5%;
+    position: relative;
+    top: -750px;
+    padding-left: 46.5%;
 }
 
 .img2-S7-set {
-  position: absolute;
+    position: absolute;
 }
 
 
 /* ------------------------------------ S8 ------------------------------------  */
 
 .S8-Container {
-  /* background-color: blue; */
-  font-family: 'Bai Jamjuree', sans-serif;
-  line-height: 50px;
-  font-size: 150%;
-  height: auto;
+    /* background-color: blue; */
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 50px;
+    font-size: 150%;
+    height: auto;
 }
 
 .Quote1-S8 {
-  position: relative;
-  text-align: left;
-  font-size: 100%;
-  top: -450px;
-  padding-left: 12%;
+    position: relative;
+    text-align: left;
+    font-size: 100%;
+    top: -450px;
+    padding-left: 12%;
 }
 
 .Quote2-S8 {
-  position: relative;
-  text-align: right;
-  font-size: 120%;
-  top: -400px;
-  padding-right: 15%;
+    position: relative;
+    text-align: right;
+    font-size: 120%;
+    top: -400px;
+    padding-right: 15%;
 }
 
 .img1-S8 {
-  position: relative;
+    position: relative;
 }
 
 #img1-S8-school {
-  position: absolute;
-  top: -330px;
-  padding-left: 50%;
-  z-index: 0;
+    position: absolute;
+    top: -330px;
+    padding-left: 50%;
+    z-index: 0;
 }
 
 .img2-S8 {
-  position: relative;
+    position: relative;
 }
 
 #img2-S8-L {
-  position: absolute;
-  padding-left: 65%;
-  top: -124px;
-  z-index: 1;
+    position: absolute;
+    padding-left: 65%;
+    /* top: -124px; */
+    top: -93px;
+    z-index: 1;
 }
 
 #img2-S8-R {
-  position: absolute;
-  padding-left: 72%;
-  top: -124px;
-  z-index: 2;
+    position: absolute;
+    padding-left: 72%;
+    /* top: -124px; */
+    top: -93px;
+    z-index: 2;
 }
 
 .img3-S8 {
-  position: relative;
-  opacity: 0;
+    position: relative;
+    opacity: 0;
 }
 
 #img3-S8-shop {
-  position: absolute;
-  padding-left: 10%;
-  top: -380px;
+    position: absolute;
+    padding-left: 10%;
+    /* top: -380px; */
+    top: -372px;
 }
 
 .img4-S8 {
-  position: relative;
-  top:10px;
+    position: relative;
+    top: 17px;
 }
-#img4-S8-floor{
-  width: calc(var(--vh1));
+
+#img4-S8-floor {
+    width: calc(var(--vh1));
 }
+
 
 /* ------------------------------------ S9 ------------------------------------  */
 
-.S9-Container { 
-  background-color: black;
-  font-family: 'Bai Jamjuree', sans-serif;
-  line-height: 50px;
-  font-size: 150%;
-  height: auto;
+.S9-Container {
+    background-color: black;
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 50px;
+    font-size: 150%;
+    height: auto;
 }
 
 .slids1-S9 {
-  position: relative;
+    position: relative;
 }
 
 #img1-s9-bg {
-  position: relative;
-  top: -17px;
-  width: calc(var(--vh1));
-  z-index: 0;
+    position: relative;
+    /* top: -17px; */
+    top: 34px;
+    width: calc(var(--vh1));
+    z-index: 0;
 }
 
 #img-s9 {
-  position: absolute !important;
-  bottom: 33px !important;
-  padding-left: 55% !important;
-  z-index: 1 !important;
-  width: 600px !important;
-  height: 600px !important;
+    position: absolute !important;
+    /* bottom: 33px !important; */
+    bottom: -16px !important;
+    padding-left: 55% !important;
+    z-index: 1 !important;
+    width: 600px !important;
+    height: 600px !important;
 }
 
 .Quote1-S9 {
-  position: absolute;
-  text-shadow: 1px 1px 2px rgb(3, 55, 5);
-  color: #ffffff;
-  bottom: 150px;
-  padding-left: 10%;
-  font-size: 100%;
-  line-height: 40px;
-  z-index: 1;
+    position: absolute;
+    text-shadow: 1px 1px 2px rgb(3, 55, 5);
+    color: #ffffff;
+    bottom: 150px;
+    padding-left: 10%;
+    font-size: 100%;
+    line-height: 40px;
+    z-index: 1;
 }
 
 #Quote-S9-txt2 {
-  font-size: 380%;
+    font-size: 380%;
 }
 
 .slids2-S9 {
-  position: relative;
+    position: relative;
 }
 
 .img2-s9-bg {
-  position: relative;
-  top: 0px;
-  width: calc(var(--vh1));
-  height: 100%;
-  z-index: 0;
+    position: relative;
+    top: 17px;
+    width: calc(var(--vh1));
+    height: 100%;
+    z-index: 0;
 }
 
 .Quote2-S9 {
-  position: absolute;
-  text-shadow: 1px 1px 2px rgb(3, 55, 5);
-  color: #ffffff;
-  bottom: 281px;
-  padding-left: 10%;
-  font-size: 120%;
-  line-height: 40px;
-  z-index: 1;
+    position: absolute;
+    text-shadow: 1px 1px 2px rgb(3, 55, 5);
+    color: #ffffff;
+    bottom: 281px;
+    padding-left: 10%;
+    font-size: 120%;
+    line-height: 40px;
+    z-index: 1;
 }
 
 
 /* ------------------------------------ S10 ------------------------------------  */
 
 .S10-Container {
-  background-color: black;
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 150%;
-  height: 1800px;
+    background-color: black;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 150%;
+    height: 1800px;
 }
 
 .slids1-S10 {
-  position: relative;
+    position: relative;
 }
 
 .img1-P1-S10 {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .img1-P1-S10set {
-  position: absolute;
-  top: -64px;
-  padding-left: 35%;
+    position: absolute;
+    top: -64px;
+    padding-left: 35%;
 }
 
 .img2-P1-S10 {
-  position: relative;
-  text-align: right;
-  bottom: -150px;
-  z-index: 2;
+    position: relative;
+    text-align: right;
+    bottom: -150px;
+    z-index: 2;
 }
 
 .img2-P1-S10set {
-  padding-right: 18%;
-}
-.img3-P1-S10 {
-  position: relative;
-  z-index: 0;
+    padding-right: 18%;
 }
 
-.img3-P1-S10set{
-  width: calc(var(--vh1));
+.img3-P1-S10 {
+    position: relative;
+    z-index: 0;
 }
+
+.img3-P1-S10set {
+    width: calc(var(--vh1));
+}
+
 .QuoteP1-S10 {
-  position: relative;
-  color: #ffffff;
-  z-index: 1;
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
 }
 
 .QuoteP1-S10set {
-  position: absolute;
-  padding-left: 6%;
-  padding-top: 70px;
+    position: absolute;
+    padding-left: 6%;
+    padding-top: 70px;
 }
 
 .slids2-S10 {
-  position: relative;
+    position: relative;
 }
 
 .QuoteP2-S10 {
-  position: relative;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 15%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15%;
 }
 
 .img1-P2-S10 {
-  position: relative;
-  text-align: center;
-  align-items: center;
-  padding-top: 5%;
-  z-index: 0;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+    z-index: 0;
 }
 
 .img2-P2-S10 {
-  position: relative;
-  text-align: center;
-  bottom: 166px;
-  padding-left: 1%;
+    position: relative;
+    text-align: center;
+    bottom: 166px;
+    padding-left: 1%;
 }
 
 
 /* ------------------------------------ S11 ------------------------------------  */
 
 .S11-Container {
-  background-color: black;
-  color: #ffffff;
-  font-family: 'Bai Jamjuree', sans-serif;
-  background-attachment: fixed;
-  line-height: 50px;
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-attachment: fixed;
+    line-height: 50px;
 }
 
 #IMG-S11 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  align-content: center;
-  align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-content: center;
+    align-items: center;
 }
 
 .IMGSET-S11 {
-  margin-top: 10%;
-  padding-left: 10%;
-  width: 550px;
-  height: 600px;
+    margin-top: 10%;
+    padding-left: 10%;
+    width: 550px;
+    height: 600px;
 }
 
 #Quote-S11-1,
 #Quote-S11-2,
 #Quote-S11-3,
 #Quote-S11-4 {
-  position: relative;
-  line-height: 50px;
-  font-size: 150%;
-  text-align: right;
-  padding-right: 10%;
-  top: -500px;
-  /* margin-top: -288px; */
+    position: relative;
+    line-height: 50px;
+    font-size: 150%;
+    text-align: right;
+    padding-right: 10%;
+    top: -500px;
+    /* margin-top: -288px; */
 }
 
 
 /* ------------------------------------ S12 ------------------------------------  */
 
 .S12-Container {
-  background-color: black;
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 150%;
+    background-color: black;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 150%;
 }
 
 .Quote-S12 {
-  position: relative;
-  color: #ffffff;
+    position: relative;
+    color: #ffffff;
 }
 
 .Quote-S12-set {
-  transform: all .3s;
-  position: absolute;
-  padding-left: 20%;
-  padding-top: 10%
+    transform: all .3s;
+    position: absolute;
+    padding-left: 20%;
+    padding-top: 10%
 }
 
 .img1-S12 {
-  position: relative;
-  text-align: right;
-  padding-right: 10%;
-  bottom: -260px;
+    position: relative;
+    text-align: right;
+    padding-right: 10%;
+    bottom: -260px;
 }
 
 .img1-S12-set {
-  transform: all .3s ease !important;
-  padding-left: 55%;
-  position: relative;
-  top:-90px;
+    transform: all .3s ease !important;
+    padding-left: 55%;
+    position: relative;
+    top: -90px;
 }
 
 .im2-S12 {
-  position: relative;
+    position: relative;
 }
 
 .img2-S12-set {
-  position: relative;
-  transform: rotate(4deg);
-  width: calc(var(--vh1));
-  top: 95px;
+    position: relative;
+    transform: rotate(4deg);
+    width: calc(var(--vh1));
+    top: 95px;
 }
 
 
 /* ------------------------------------ S13 ------------------------------------  */
 
 .S13-Container {
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 200%;
-  line-height: 50px;
-  padding-top: 30%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 200%;
+    line-height: 50px;
+    padding-top: 30%;
 }
 
 .img-S13 {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
 
 .Quote-S13 {
-  position: relative;
-  text-align: center;
-  /* color: #fff; */
+    position: relative;
+    text-align: center;
+    /* color: #fff; */
 }
 
 .Quote-S13-set {
-  position: relative;
-  color: #ffffff;
-  top: -90px;
-  padding-left: 5%;
+    position: relative;
+    color: #ffffff;
+    top: -90px;
+    padding-left: 5%;
 }
+
 
 /* ------------------------------------ S14 ------------------------------------  */
-.S14-Container {
-  background-image: linear-gradient(rgba(217, 217, 217, 1) 0%, rgb(0, 0, 0, 1) 100%);
-  height: calc(var(--vh1));
-  width: calc(var(--vw1));
-  overflow-x: hidden;
-  transform: rotate(-90deg);
-}
-.scorllingIN{
-  overflow-y: hidden;
-}
-.scorllingAC{
-  overflow-y: auto;
-}
-#S14,#S15,#S16,#S17,#S18,#S19{
-  box-sizing: border-box;
-  display: block;
-  height: calc(var(--vh2));
-  width: auto;
-  transform: rotate(90deg);
-}
-#S14 {
 
-  font-family: 'Bai Jamjuree', sans-serif;;
-  font-size: 90%;
+.S14-Container {
+    background-image: linear-gradient(rgba(217, 217, 217, 1) 0%, rgb(0, 0, 0, 1) 100%);
+    height: calc(var(--vh1));
+    width: calc(var(--vw1));
+    overflow-x: hidden;
+    transform: rotate(-90deg);
+}
+
+.scorllingIN {
+    overflow-y: hidden;
+}
+
+.scorllingAC {
+    overflow-y: auto;
+}
+
+#S14,
+#S15,
+#S16,
+#S17,
+#S18,
+#S19 {
+    box-sizing: border-box;
+    display: block;
+    height: calc(var(--vh2));
+    width: auto;
+    transform: rotate(90deg);
+}
+
+#S14 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    ;
+    font-size: 90%;
 }
 
 .img1-S14 {
-  position: relative;
-  padding-left: 200px;
-  top: 600px;
+    position: relative;
+    padding-left: 200px;
+    top: 600px;
 }
 
 .Quote-S14 {
-  position: relative;
-  width: 380px;
-  padding-left: 800px;
-  top: -50px;
-  line-height: 45px;
-  text-align: right;
+    position: relative;
+    width: 380px;
+    padding-left: 800px;
+    top: -50px;
+    line-height: 45px;
+    text-align: right;
 }
 
 
 /* ------------------------------------ S15 ------------------------------------  */
 
 #S15 {
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 90%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 90%;
 }
 
 .img1-S15 {
-  position: relative;
-  text-align: center;
-  top: 600px;
+    position: relative;
+    text-align: center;
+    top: 600px;
 }
 
 .Quote1-S15 {
-  background-color: #1e5d20;
-  color: #ffffff;
-  position: relative;
-  left: 8%;
-  width: 230px;
-  height: 50px;
-  top: -50px;
-  font-size: 22px;
-  line-height: 55px;
-  padding: 10px;
-  text-align: center;
+    background-color: #1e5d20;
+    color: #ffffff;
+    position: relative;
+    left: 8%;
+    width: 230px;
+    height: 50px;
+    top: -50px;
+    font-size: 22px;
+    line-height: 55px;
+    padding: 10px;
+    text-align: center;
 }
 
 .Quote2-S15 {
-  color: #000000;
-  position: relative;
-  font-size: 16px;
-  left: 8%;
-  width: 420px;
-  top: -50px;
-  line-height: 19px;
-  padding: 10px;
-  text-align: left;
+    color: #000000;
+    position: relative;
+    font-size: 16px;
+    left: 8%;
+    width: 420px;
+    top: -50px;
+    line-height: 19px;
+    padding: 10px;
+    text-align: left;
 }
 
 
 /* ------------------------------------ S16 ------------------------------------  */
 
 #S16 {
-
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 85%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 85%;
 }
 
 .img1-S16 {
-  position: relative;
-  left: 500px;
-  top: 600px;
+    position: relative;
+    left: 500px;
+    top: 600px;
 }
 
 .Quote1-S16 {
-  background-color: #1e5d20;
-  color: #ffffff;
-  position: relative;
-  left: 8%;
-  width: 300px;
-  height: 55px;
-  top: -50px;
-  font-size: 22px;
-  line-height: 65px;
-  padding: 10px;
-  text-align: center;
+    background-color: #1e5d20;
+    color: #ffffff;
+    position: relative;
+    left: 8%;
+    width: 300px;
+    height: 55px;
+    top: -50px;
+    font-size: 22px;
+    line-height: 54px;
+    padding: 10px;
+    text-align: center;
 }
 
 .Quote2-S16 {
-  color: #000000;
-  position: relative;
-  font-size: 16px;
-  left: 8%;
-  width: 420px;
-  top: -50px;
-  line-height: 19px;
-  padding: 10px;
-  text-align: left;
+    color: #000000;
+    position: relative;
+    font-size: 16px;
+    left: 8%;
+    width: 420px;
+    top: -50px;
+    line-height: 19px;
+    padding: 10px;
+    text-align: left;
 }
 
 
 /* ------------------------------------ S17 ------------------------------------  */
-#S17 {
 
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 85%;
+#S17 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 85%;
 }
 
 .img1-S17 {
-  position: relative;
-  left: 550px;
-  top: 600px;
+    position: relative;
+    left: 550px;
+    top: 600px;
 }
 
 .Quote1-S17 {
-  background-color: #1e5d20;
-  color: #ffffff;
-  position: relative;
-  left: 8%;
-  width: 300px;
-  height: 55px;
-  top: -50px;
-  font-size: 22px;
-  line-height: 65px;
-  padding: 10px;
-  text-align: center;
+    background-color: #1e5d20;
+    color: #ffffff;
+    position: relative;
+    left: 8%;
+    width: 300px;
+    height: 55px;
+    top: -50px;
+    font-size: 20px;
+    line-height: 57px;
+    padding: 10px;
+    text-align: center;
 }
 
 .Quote2-S17 {
-  color: #ffffff;
-  position: relative;
-  font-size: 16px;
-  left: 8%;
-  width: 420px;
-  top: -50px;
-  line-height: 19px;
-  padding: 10px;
-  text-align: left;
+    color: #ffffff;
+    position: relative;
+    font-size: 16px;
+    left: 8%;
+    width: 420px;
+    top: -50px;
+    line-height: 19px;
+    padding: 10px;
+    text-align: left;
 }
 
 
 /* ------------------------------------ S18 ------------------------------------  */
 
 #S18 {
-
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 85%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 85%;
 }
 
 .img1-S18 {
-  position: relative;
-  left: 550px;
-  top: 580px;
+    position: relative;
+    left: 550px;
+    top: 580px;
 }
 
 .Quote1-S18 {
-  background-color: #1e5d20;
-  color: #ffffff;
-  position: relative;
-  left: 8%;
-  width: 300px;
-  height: 55px;
-  top: -150px;
-  font-size: 20px;
-  line-height: 65px;
-  padding: 10px;
-  text-align: center;
+    background-color: #1e5d20;
+    color: #ffffff;
+    position: relative;
+    left: 8%;
+    width: 300px;
+    height: 55px;
+    top: -150px;
+    font-size: 20px;
+    line-height: 56px;
+    padding: 10px;
+    text-align: center;
 }
 
 .Quote2-S18 {
-  color: #ffffff;
-  position: relative;
-  font-size: 16px;
-  left: 8%;
-  width: 420px;
-  top: -150px;
-  line-height: 19px;
-  padding: 10px;
-  text-align: left;
+    color: #ffffff;
+    position: relative;
+    font-size: 16px;
+    left: 8%;
+    width: 420px;
+    top: -150px;
+    line-height: 19px;
+    padding: 10px;
+    text-align: left;
 }
 
 
 /* ------------------------------------ S19 ------------------------------------  */
 
 #S19 {
-  overflow-y: hidden;
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 85%;
+    overflow-y: hidden;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 85%;
 }
 
 .img1-S19 {
-  position: relative;
-  padding-left: 850px;
-  top: 580px;
+    position: relative;
+    padding-left: 850px;
+    top: 580px;
 }
 
 .Quote1-S19 {
-  background-color: #1e5d20;
-  color: #ffffff;
-  position: relative;
-  left: 8%;
-  width: 300px;
-  height: 55px;
-  top: -80px;
-  font-size: 20px;
-  line-height: 65px;
-  padding: 10px;
-  text-align: center;
+    background-color: #1e5d20;
+    color: #ffffff;
+    position: relative;
+    left: 8%;
+    width: 300px;
+    height: 55px;
+    top: -80px;
+    font-size: 20px;
+    line-height: 53px;
+    padding: 10px;
+    text-align: center;
 }
 
 .Quote2-S19 {
-  color: #ffffff;
-  position: relative;
-  font-size: 16px;
-  left: 8%;
-  width: 420px;
-  top: -80px;
-  line-height: 19px;
-  padding: 10px;
-  text-align: left;
+    color: #ffffff;
+    position: relative;
+    font-size: 16px;
+    left: 8%;
+    width: 420px;
+    top: -80px;
+    line-height: 19px;
+    padding: 10px;
+    text-align: left;
 }
 
 .Quote3-S19 {
-  color: #ffffff;
-  position: relative;
-  font-size: 16px;
-  left: 55%;
-  width: 420px;
-  top: 250px;
-  line-height: 19px;
-  padding: 10px;
-  text-align: right;
+    color: #ffffff;
+    position: relative;
+    font-size: 16px;
+    left: 55%;
+    width: 420px;
+    top: 250px;
+    line-height: 19px;
+    padding: 10px;
+    text-align: right;
 }
+
 
 /* ------------------------------------ S20 ------------------------------------  */
 
 .S20-Container {
-  margin: 0;
-  font-family: 'Bai Jamjuree', sans-serif;
-  background-image: linear-gradient(to bottom,
-      hsl(0, 0%, 3%),
-      hsl(0, 0%, 93%));
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: linear-gradient(to bottom, hsl(0, 0%, 3%), hsl(0, 0%, 93%));
 }
 
 .S20 {
-  /* background: #a60538; */
-  padding: 20rem 0 0 0;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
+    /* background: #a60538; */
+    padding: 20rem 0 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 .textbox1 {
-  background-color: #009933;
-  color: #ffffff;
-  height: auto;
-  padding: 2rem 0;
-  box-sizing: border-box;
-  font-size: 21px;
-  text-align: center;
-  line-height: 32px;
-  font-weight: 150;
+    background-color: #009933;
+    color: #ffffff;
+    height: auto;
+    padding: 2rem 0;
+    box-sizing: border-box;
+    font-size: 21px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 150;
 }
 
 .img1-S20 {
-  /* background: #f80404; */
-  margin: 0;
-  padding: 10rem 0 4rem 0;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-
+    /* background: #f80404; */
+    margin: 0;
+    padding: 10rem 0 4rem 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .img1-S19-set {
-  /* background: #140bb9; */
+    /* background: #140bb9; */
 }
 
 .img2-s20 {
-  padding: 4rem 0;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5rem;
+    padding: 4rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5rem;
 }
 
 .img2-S20-set {
-  /* background: #09c1d5; */
-  text-align: left;
+    /* background: #09c1d5; */
+    text-align: left;
 }
 
 .img3-S20-set {
-  /* background: #b4ba07; */
-  padding: 1rem 0 0 0;
-  text-align: center;
+    /* background: #b4ba07; */
+    padding: 1rem 0 0 0;
+    text-align: center;
 }
 
 .img4-S20-set {
-  /* background: #ae07ba; */
-  text-align: right;
+    /* background: #ae07ba; */
+    text-align: right;
 }
 
 .textbox2 {
-  background-color: #009933;
-  color: #ffffff;
-  height: auto;
-  padding: 2rem 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  text-align: center;
-  line-height: 32px;
-  font-weight: 150;
+    background-color: #009933;
+    color: #ffffff;
+    height: auto;
+    padding: 2rem 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 150;
 }
 
 .textbox3 {
-  /* background: #190ca8; */
-  padding: 5rem 0rem;
-  text-align: center;
-  justify-content: center;
+    /* background: #190ca8; */
+    padding: 5rem 0rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.box-free {
+    padding: 0 630px;
 }
 
 .textbox4 {
-  position: relative;
-  background-color: #009933;
-  color: #ffffff;
-  justify-content: center;
-  /* width: 180px; */
-  height: auto;
-  padding: 1.3rem 0;
-  box-sizing: border-box;
-  font-size: 19px;
-  text-align: center;
-  line-height: 32px;
-  font-weight: 150;
+    position: relative;
+    background-color: #009933;
+    color: #ffffff;
+    justify-content: center;
+    /* width: 180px; */
+    height: auto;
+    padding: 1.3rem 0;
+    box-sizing: border-box;
+    font-size: 19px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 150;
 }
 
 .page-grid1 {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5rem;
 }
 
 .img5-S20-set {
-  justify-content: center;
+    justify-content: center;
 }
 
 .img6-S20-set {
-  text-align: left;
+    text-align: left;
 }
 
 .page-grid2 {
-  display: grid;
-  grid-template-rows: auto auto;
-  gap: 3rem;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 3rem;
 }
 
 .img7-S20-set {
-  text-align: left;
+    text-align: left;
 }
 
 .img8-S20-set {
-  text-align: right;
+    text-align: right;
 }
 
 .textbox5 {
-  background-color: #009933;
-  color: #ffffff;
-  height: auto;
-  padding: 1.5rem 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  text-align: center;
-  line-height: 32px;
-  font-weight: 150;
+    background-color: #009933;
+    color: #ffffff;
+    height: auto;
+    padding: 1.5rem 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 150;
 }
 
 .textbox6 {
-  padding: 32rem 0 0 0;
+    padding: 32rem 0 0 0;
 }
 
 #textbox6 {
-  background-color: #009933;
-  color: #ffffff;
-  height: auto;
-  padding: 1.5rem 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  text-align: center;
-  line-height: 32px;
-  font-weight: 150;
+    background-color: #009933;
+    color: #ffffff;
+    height: auto;
+    padding: 1.5rem 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 150;
 }
 
 .img2-S20-set {
-  transform-origin: 0% 70%;
-  animation-name: move;
-  animation-iteration-count: infinite;
-  animation-duration: 3s;
+    transform-origin: 0% 70%;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
 }
+
 .img4-S20-set {
-  transform-origin: 100% 30%;
-  animation-name: move;
-  animation-iteration-count: infinite;
-  animation-duration: 3s;
+    transform-origin: 100% 30%;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
 }
-.active.moveInLeft{
-  animation: moveINL 1.5s ease-in;
+
+.active.moveInLeft {
+    animation: moveINL 1.5s ease-in;
 }
-.active.moveInRight{
-  animation: moveINR 1.5s ease-in;
+
+.active.moveInRight {
+    animation: moveINR 1.5s ease-in;
 }
+
 @keyframes move {
-  0%   { rotate: 5deg; }
-  50%  { rotate: -5deg; }
-  100% { rotate: 5deg; }
+    0% {
+        rotate: 5deg;
+    }
+    50% {
+        rotate: -5deg;
+    }
+    100% {
+        rotate: 5deg;
+    }
 }
+
 @keyframes moveINL {
-  0%   { transform: translateX(-2000px);}
-  100% { transform: translateX(0px); }
+    0% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
 }
+
 @keyframes moveINR {
-  0%   { transform: translateX(3000px);}
-  100% { transform: translateX(0px); }
+    0% {
+        transform: translateX(3000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
 }
+
+
 /* ------------------------------------ S21 ------------------------------------  */
 
 .S21-Container {
-  margin: 0;
-  font-family: 'Sriracha', cursive;
-  background: #ffffff;
+    margin: 0;
+    font-family: 'Sriracha', cursive;
+    background: #ffffff;
 }
 
 #S21-Container {
- height: auto;
-  padding: 10rem 2rem;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
-  box-sizing: border-box;
+    height: auto;
+    padding: 10rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 .S21 {
-  padding: 0 3rem;
+    padding: 0 3rem;
 }
 
 .text1-S21 {
-  opacity: 0;
-  color: #009933;
-  padding: 15rem 0;
-  text-align: left;
-  font-size: 30px;
-  transform: rotate(-5deg);
+    opacity: 0;
+    color: #009933;
+    padding: 15rem 0;
+    text-align: left;
+    font-size: 30px;
+    transform: rotate(-5deg);
 }
 
 .text2-S21 {
-  opacity: 0;
-  color: #009933;
-  padding: 15rem 0;
-  text-align: right;
-  font-size: 30px;
-  transform: rotate(5deg);
+    opacity: 0;
+    color: #009933;
+    padding: 15rem 0;
+    text-align: right;
+    font-size: 30px;
+    transform: rotate(5deg);
 }
 
 .text3-S21 {
-  opacity: 0;
-  color: #009933;
-  padding: 15rem 0;
-  text-align: left;
-  font-size: 30px;
-  transform: rotate(-5deg);
+    opacity: 0;
+    color: #009933;
+    padding: 15rem 0;
+    text-align: left;
+    font-size: 30px;
+    transform: rotate(-5deg);
 }
 
 
-
 /* ----------------------------------------------------------------------------------- */
+
 .img1-footer {
-  justify-content: center;
-  text-align: center;
+    justify-content: center;
+    text-align: center;
 }
