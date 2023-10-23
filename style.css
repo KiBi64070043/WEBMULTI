@@ -87,11 +87,19 @@ body {
     padding-left: 75% !important;
   }
 
+  /* ------------------------------------ S21 ------------------------------------  */
+  .img1-footer {
+    padding-left: 5% !important;
+  }
+
+  .img5-S20-set {
+    padding-left: 18%;
+  }
 }
 
 @media only screen and (max-width: 1440px) {
   .Basic-Att {
-    min-width: 980px;
+    min-width: 1550px;
   }
 
   /* ------------------------------------ S1 ------------------------------------  */
@@ -123,7 +131,7 @@ body {
   }
 
   .IMGRIGHT {
-    padding-right: 10%;
+    padding-right: 8%;
   }
 
   .hand_dad {
@@ -144,7 +152,7 @@ body {
 
   /* ------------------------------------ S7 ------------------------------------  */
   .Quote-S7 {
-    padding-left: 25% !important;
+    padding-left: 27% !important;
   }
 
   /* ------------------------------------ S8 ------------------------------------  */
@@ -152,15 +160,27 @@ body {
     padding-left: 5%;
   }
 
-  #img2-S8-R {
-    padding-left: 75% !important;
+  #img2-S8-L {
+    padding-left: 63% !important;
   }
 
+  #img2-S8-R {
+    padding-left: 72% !important;
+  }
+
+  /* ------------------------------------ S21 ------------------------------------  */
+  .img1-footer {
+    padding-left: 9% !important;
+  }
+
+  .img5-S20-set {
+    padding-left: 12%;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
   .Basic-Att {
-    min-width: 980px;
+    min-width: 1400px;
   }
 
   /* ------------------------------------ S1 ------------------------------------  */
@@ -232,7 +252,7 @@ body {
   }
 
   .IMGRIGHT {
-    padding-right: 15%;
+    padding-right: 10%;
   }
 
   .hand_dad {
@@ -242,7 +262,7 @@ body {
 
   .hand_mom {
     top: 780px !important;
-    padding-left: 60% !important;
+    padding-left: 62% !important;
   }
 
   /* ------------------------------------ S4 ------------------------------------  */
@@ -265,11 +285,19 @@ body {
     padding-left: 75% !important;
   }
 
+  /* ------------------------------------ S21 ------------------------------------  */
+  .img1-footer {
+    padding-left: 20% !important;
+  }
+
+  .img5-S20-set {
+    padding-left: 16%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .Basic-Att {
-    min-width: 980px;
+    min-width: 1300px;
   }
 
   /* ------------------------------------ S1 ------------------------------------  */
@@ -306,21 +334,21 @@ body {
   .IMGSET {
     width: 450px !important;
     height: 500px !important;
-    padding-left: 58% !important;
+    padding-left: 66% !important;
   }
 
   /* ------------------------------------ S3 ------------------------------------  */
   .IMGLEFT {
-    padding-right: 60%;
+    padding-right: 10%;
   }
 
   .IMGRIGHT {
-    padding-right: 16%;
+    padding-right: 12%;
   }
 
   .hand_dad {
     top: 760px !important;
-    padding-left: 6% !important;
+    padding-left: 14% !important;
   }
 
   .hand_mom {
@@ -358,26 +386,35 @@ body {
 
   /* ------------------------------------ S7 ------------------------------------  */
   .Quote-S7 {
-    padding-left: 16% !important;
+    padding-left: 22% !important;
   }
 
   /* ------------------------------------ S8 ------------------------------------  */
   #img1-S8-school {
-    padding-left: 39% !important;
+    padding-left: 49% !important;
   }
 
-  .img2-S8 {
-    padding-left: 3%;
+  #img2-S8-L {
+    padding-left: 66% !important;
   }
 
   #img2-S8-R {
-    padding-left: 78% !important;
+    padding-left: 76% !important;
+  }
+
+  /* ------------------------------------ S21 ------------------------------------  */
+  .img1-footer {
+    padding-left: 20% !important;
+  }
+
+  .img5-S20-set {
+    padding-left: 16%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .Basic-Att {
-    min-width: 980px;
+    min-width: 1300px;
   }
 
   /* ------------------------------------ S1 ------------------------------------  */
@@ -407,21 +444,21 @@ body {
   .IMGSET {
     width: 450px !important;
     height: 500px !important;
-    padding-left: 55% !important;
+    padding-left: 65% !important;
   }
 
   /* ------------------------------------ S3 ------------------------------------  */
   .IMGLEFT {
-    padding-right: 60%;
+    padding-right: 10%;
   }
 
   .IMGRIGHT {
-    padding-right: 20%;
+    padding-right: 13%;
   }
 
   .hand_dad {
     top: 760px !important;
-    padding-left: 6% !important;
+    padding-left: 14% !important;
   }
 
   .hand_mom {
@@ -459,7 +496,7 @@ body {
 
   /* ------------------------------------ S7 ------------------------------------  */
   .Quote-S7 {
-    padding-left: 14% !important;
+    padding-left: 22% !important;
   }
 
   /* ------------------------------------ S8 ------------------------------------  */
@@ -471,16 +508,28 @@ body {
     padding-left: 80% !important;
   }
 
+  #img2-S8-L {
+    padding-left: 68% !important;
+  }
+
   #img1-S8-school {
     width: 60% !important;
     padding-left: 46% !important;
   }
 
+  /* ------------------------------------ S21 ------------------------------------  */
+  .img1-footer {
+    padding-left: 26% !important;
+  }
+
+  .img5-S20-set {
+    padding-left: 16%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .Basic-Att {
-    min-width: 900px;
+    min-width: 1200px;
   }
 
   /* ------------------------------------ S1 ------------------------------------  */
@@ -506,21 +555,21 @@ body {
   .IMGSET {
     width: 450px !important;
     height: 500px !important;
-    padding-left: 53% !important;
+    padding-left: 60% !important;
   }
 
   /* ------------------------------------ S3 ------------------------------------  */
   .IMGLEFT {
-    padding-right: 60%;
+    padding-right: 10%;
   }
 
   .IMGRIGHT {
-    padding-right: 23%;
+    padding-right: 17%;
   }
 
   .hand_dad {
     top: 760px !important;
-    padding-left: 6% !important;
+    padding-left: 15% !important;
   }
 
   .hand_mom {
@@ -558,13 +607,17 @@ body {
 
   /* ------------------------------------ S7 ------------------------------------  */
   .Quote-S7 {
-    padding-left: 8% !important;
+    padding-left: 19% !important;
   }
 
   /* ------------------------------------ S8 ------------------------------------  */
 
   .S8-Container {
     font-size: 250% !important;
+  }
+
+  #img2-S8-L {
+    padding-left: 67% !important;
   }
 
   #img2-S8-R {
@@ -574,6 +627,15 @@ body {
   #img1-S8-school {
     width: 60% !important;
     padding-left: 46% !important;
+  }
+
+  /* ------------------------------------ S21 ------------------------------------  */
+  .img1-footer {
+    padding-left: 35% !important;
+  }
+
+  .img5-S20-set {
+    padding-left: 10%;
   }
 }
 
