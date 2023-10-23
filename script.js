@@ -3,7 +3,8 @@ const reveal = () => {
   const reveals = document.querySelectorAll(".reveal");
   const elements = document.querySelectorAll(".S14-Container");
 
-  
+
+
   const Chatbox1 = document.getElementById("Quote-S11-1");
   const Chatbox2 = document.getElementById("Quote-S11-2");
   const Chatbox3 = document.getElementById("Quote-S11-3");
@@ -13,6 +14,24 @@ const reveal = () => {
   Chatbox1.style.opacity = 0 + scrollTop1/350;
   Chatbox2.style.opacity = 0 + scrollTop2/350;
   Chatbox3.style.opacity = 0 + scrollTop3/350;
+
+
+
+  const Chatbox1S1 = document.getElementById("Quote-S2_1");
+  const Chatbox2S1 = document.getElementById("Quote-S2_2");
+  const Chatbox3S1 = document.getElementById("Quote-S2_3");
+  const Chatbox4S1 = document.getElementById("Quote-S2_4");
+  const scrollTop1S1 = Chatbox1S1.getBoundingClientRect().y;
+  const scrollTop2S1 = Chatbox2S1.getBoundingClientRect().y;
+  const scrollTop3S1 = Chatbox3S1.getBoundingClientRect().y;
+  const scrollTop4S1 = Chatbox4S1.getBoundingClientRect().y;
+  Chatbox1S1.style.opacity = 1 - scrollTop1S1/2000;
+  Chatbox2S1.style.opacity = 1 - scrollTop2S1/2000;
+  Chatbox3S1.style.opacity = 1 - scrollTop3S1/2000;
+  Chatbox4S1.style.opacity = 1 - scrollTop4S1/2000;
+
+
+
 
   // Loop over each element with the "reveal" class
   reveals.forEach(reveal => {

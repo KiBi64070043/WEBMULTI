@@ -172,6 +172,46 @@ body {
   .S2-Container {
     min-height: 3200px;
   }
+  .img1-S14 {
+    padding-left: 160px !important;
+    top: 425px !important;
+  }
+  .img1-S15 {
+    top: 425px !important;
+  }
+  .img1-S16 {
+    top: 425px !important;
+  }
+  .img1-S17 {
+    top: 425px !important;
+  } 
+  .img1-S18 {
+    left: 480px !important;
+    top: 425px !important;
+  }
+  .img1-S19 {
+    padding-left: 530px !important;
+    top: 425px !important;
+  } 
+  .Quote-S14 {
+    padding-left: 650px !important;
+    top: -230px !important;
+  }
+  .Quote1-S15,.Quote2-S15,.Quote1-S16,.Quote2-S16,.Quote1-S17,.Quote2-S17,.Quote1-S19,.Quote2-S19{
+    font-size: 16.5px !important;
+    top: -230px !important;
+  }
+  .Quote1-S18,.Quote2-S18{
+    font-size: 16.5px !important;
+    top: -330px !important;
+  }
+  .Quote3-S19 {
+    font-size: 16.5px !important;
+    top: 170px !important;
+  }
+  #S14,#S15,#S16,#S17,#S18,#S19{
+    font-size: 93% !important;
+  }
   #Quote-S2_1,
   #Quote-S2_2,
   #Quote-S2_3,
@@ -244,9 +284,16 @@ body {
   .img1-S12-set {
     padding-left: 55%;
   }
-   .IMGSET-S11 {
+  .IMGSET-S11 {
     width: 450px !important;
     height: 500px !important;
+  }
+  .S14-Container {
+    transform: rotate(0deg) !important;
+    height: auto !important;
+  }
+  #S14,#S15,#S16,#S17,#S18,#S19{
+    transform: rotate(0deg) !important;
   }
   #Quote-S2_1,
   #Quote-S2_2,
@@ -445,7 +492,9 @@ body {
   .S2-Container {
     min-height: 3200px;
   }
-
+  .S14-Container {
+    width: 900px !important;
+  }
   #Quote-S2_1,
   #Quote-S2_2,
   #Quote-S2_3,
@@ -607,17 +656,8 @@ body {
 .active.fadeaway7 {
   animation: fadeaway2 2s ease-in-out forwards;
 }
-
 .active.fadeawayChat {
-  animation: fadeaway6 5s ease-in forwards;
-}
-
-.active.fadeawayChat2 {
-  animation: fadeaway5 4s ease-in 1s forwards;
-}
-
-.active.fadeawayChat3 {
-  animation: fadeaway6 3s ease-in 2s forwards;
+  animation: fadeaway2 5s ease-in-out forwards;
 }
 
 .active.fade-in {
@@ -691,6 +731,10 @@ body {
 
 @keyframes fadeaway1 {
   0% {
+    opacity: 0;
+  }
+
+  0% {
     opacity: 1;
   }
 
@@ -719,50 +763,12 @@ body {
     opacity: 1;
   }
 
-  100% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-}
-
-@keyframes fadeaway5 {
   0% {
-    opacity: 0;
-  }
-
-  20% {
-    transform: translateX(-100px);
-    opacity: 1;
-  }
-
-  80% {
-    transform: translateX(-100px);
     opacity: 1;
   }
 
   100% {
     transform: translateX(-100px);
-    opacity: 0;
-  }
-}
-
-@keyframes fadeaway6 {
-  0% {
-    opacity: 0;
-  }
-
-  20% {
-    transform: translateX(100px);
-    opacity: 1;
-  }
-
-  80% {
-    transform: translateX(100px);
-    opacity: 1;
-  }
-
-  100% {
-    transform: translateX(100px);
     opacity: 0;
   }
 }
@@ -964,59 +970,6 @@ body {
   padding-left: 62%;
   z-index: -1;
 }
-
-/* @container (width<=1500px) {
-
-  .IMGSET {
-    width: 450px;
-    height: 500px;
-    padding-left: 60%;
-  }
-
-  #book_5 {
-    position: relative;
-    top: -60vh;
-    padding-left: 69%;
-  }
-
-  #book_6 {
-    position: relative;
-    top: -65vh;
-    padding-left: 62%;
-  }
-
-  #book_7 {
-    position: relative;
-    top: -50vh;
-    padding-left: 57%;
-  }
-
-  #book_8 {
-    position: relative;
-    top: -57vh;
-    padding-left: 52%;
-  }
-
-  .hand_mom {
-    position: absolute;
-    top: 800px;
-    padding-left: 52%;
-  }
-} */
-
-/* @media (width>=1920px) {
-  .Basic-Att {
-    min-width: 1920px;
-  }
-}
-
-@media (width<=1500px) {
-  .Basic-Att {
-    min-width: 1200px;
-  }
-} */
-
-
 .Quote-S3 {
   text-align: center;
   line-height: 70px;
@@ -1064,10 +1017,6 @@ body {
 }
 
 .S4-page2 {
-  /* text-align: center; */
-  /* line-height: 200px; */
-  /* font-size: 100%; */
-  /* display: inline-block; */
 }
 
 .dad-group {
@@ -1617,7 +1566,7 @@ body {
 #S14 {
 
   font-family: 'Bai Jamjuree', sans-serif;;
-  font-size: 85%;
+  font-size: 90%;
 }
 
 .img1-S14 {
@@ -1628,12 +1577,10 @@ body {
 
 .Quote-S14 {
   position: relative;
-  /*  padding-left: 24%; */
   width: 380px;
   padding-left: 800px;
   top: -50px;
   line-height: 45px;
-  /* padding: 20px; */
   text-align: right;
 }
 
@@ -1641,15 +1588,13 @@ body {
 /* ------------------------------------ S15 ------------------------------------  */
 
 #S15 {
-
   font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 85%;
+  font-size: 90%;
 }
 
 .img1-S15 {
   position: relative;
   text-align: center;
-  /* left: 150px; */
   top: 600px;
 }
 
@@ -1661,7 +1606,7 @@ body {
   width: 230px;
   height: 50px;
   top: -50px;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 55px;
   padding: 10px;
   text-align: center;
@@ -1670,7 +1615,7 @@ body {
 .Quote2-S15 {
   color: #000000;
   position: relative;
-  font-size: 11px;
+  font-size: 16px;
   left: 8%;
   width: 420px;
   top: -50px;
@@ -1702,7 +1647,7 @@ body {
   width: 300px;
   height: 55px;
   top: -50px;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 65px;
   padding: 10px;
   text-align: center;
@@ -1711,7 +1656,7 @@ body {
 .Quote2-S16 {
   color: #000000;
   position: relative;
-  font-size: 11px;
+  font-size: 16px;
   left: 8%;
   width: 420px;
   top: -50px;
@@ -1742,7 +1687,7 @@ body {
   width: 300px;
   height: 55px;
   top: -50px;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 65px;
   padding: 10px;
   text-align: center;
@@ -1751,7 +1696,7 @@ body {
 .Quote2-S17 {
   color: #ffffff;
   position: relative;
-  font-size: 11px;
+  font-size: 16px;
   left: 8%;
   width: 420px;
   top: -50px;
@@ -1783,7 +1728,7 @@ body {
   width: 300px;
   height: 55px;
   top: -150px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 65px;
   padding: 10px;
   text-align: center;
@@ -1792,7 +1737,7 @@ body {
 .Quote2-S18 {
   color: #ffffff;
   position: relative;
-  font-size: 11px;
+  font-size: 16px;
   left: 8%;
   width: 420px;
   top: -150px;
@@ -1824,7 +1769,7 @@ body {
   width: 300px;
   height: 55px;
   top: -80px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 65px;
   padding: 10px;
   text-align: center;
@@ -1833,7 +1778,7 @@ body {
 .Quote2-S19 {
   color: #ffffff;
   position: relative;
-  font-size: 11px;
+  font-size: 16px;
   left: 8%;
   width: 420px;
   top: -80px;
@@ -1845,7 +1790,7 @@ body {
 .Quote3-S19 {
   color: #ffffff;
   position: relative;
-  font-size: 11px;
+  font-size: 16px;
   left: 55%;
   width: 420px;
   top: 250px;
