@@ -38,13 +38,13 @@ const reveal = () => {
   const Text3S21 = document.getElementsByClassName("text3-S21");
   const scrollTopText3S21 = Text3S21[0].getBoundingClientRect().y;
   if (scrollTopText1S21 >= 0){
-    Text1S21[0].style.opacity = 1 - scrollTopText1S21/200;
+    Text1S21[0].style.opacity = 1 - scrollTopText1S21/100;
   }
   if (scrollTopText2S21 >= 0){
-    Text2S21[0].style.opacity = 1 - scrollTopText2S21/200;
+    Text2S21[0].style.opacity = 1 - scrollTopText2S21/100;
   }
   if (scrollTopText3S21 >= 0){
-    Text3S21[0].style.opacity = 1 - scrollTopText3S21/200;
+    Text3S21[0].style.opacity = 1 - scrollTopText3S21/100;
   }
 
   // Loop over each element with the "reveal" class
